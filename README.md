@@ -1,7 +1,7 @@
 # Santosh Jammi
 ### Principal Data Architect | Cloud FinOps Specialist | Microsoft Fabric & Azure Native Ecosystems
 
-[🌐 Live Portfolio Website](https://santosh-jammi-resume.vercel.app/) | [💼 LinkedIn Profile](https://linkedin.com/in/santoshjammi29) | [✉️ Email](mailto:santu.jammi@gmail.com) | 📱 +91-9110580037 | 📍 Hyderabad, India
+[🌐 Landing Page](https://santosh-jammi-resume.vercel.app/) | [💼 LinkedIn Profile](https://linkedin.com/in/santoshjammi29) | [✉️ Email](mailto:santu.jammi@gmail.com) | 📱 +91-9110580037 | 📍 Hyderabad, India
 
 ---
 
