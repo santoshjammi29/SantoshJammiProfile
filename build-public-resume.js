@@ -12,11 +12,20 @@ if (!fs.existsSync(destDir)) {
 const htmlContent = fs.readFileSync(path.join(srcDir, 'index.html'), 'utf8');
 const lines = htmlContent.split('\n');
 
-// 2. Extract Head & Header (lines 1 to 59)
-const headHeader = lines.slice(0, 59).join('\n');
+// 2. Extract Head & Header dynamically
+const headerEndIndex = lines.findIndex(l => l.includes('</header>'));
+if (headerEndIndex === -1) {
+  throw new Error('Could not find </header> tag in index.html');
+}
+const headHeader = lines.slice(0, headerEndIndex + 1).join('\n');
 
-// 3. Extract Resume Section (lines 91 to 460)
-const resumeSection = lines.slice(90, 460).join('\n');
+// 3. Extract Resume Section dynamically
+const startIndex = lines.findIndex(l => l.includes('id="panel-resume"'));
+const endIndex = lines.findIndex(l => l.includes('id="panel-linkedin"'));
+if (startIndex === -1 || endIndex === -1) {
+  throw new Error('Could not find panel-resume or panel-linkedin boundaries in index.html');
+}
+const resumeSection = lines.slice(startIndex, endIndex).join('\n');
 
 // 4. Construct standalone HTML
 const standaloneHtml = `
