@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta id="meta-color-scheme" name="color-scheme" content="light dark" />
+  <script>
+    {
+      const theme = localStorage.getItem("theme") || "dark";
+      document.documentElement.setAttribute("data-theme", theme);
+      document.getElementById("meta-color-scheme").content = theme;
+    }
+  </script>
+  <title>Santosh Jammi Profile — Principal Data Architect</title>
+  <meta name="description" content="Comprehensive career pivot toolkit for Principal Data Architect roles targeting GCC companies in Hyderabad & Bangalore. Includes resume, LinkedIn copy, interview prep, and 30-day roadmap." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ── HEADER ─────────────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-group">
+        <div class="logo-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="8" fill="url(#logoGrad)"/>
+            <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="14" font-weight="900" font-family="'Inter', sans-serif">SJ</text>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6366f1"/>
+                <stop offset="1" stop-color="#8b5cf6"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div>
+          <div class="logo-title">Santosh Jammi Profile</div>
+          <div class="logo-sub">Professional Profile</div>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="header-badges">
+          <span class="badge badge-fabric">Microsoft Fabric</span>
+          <span class="badge badge-azure">Azure Native</span>
+          <span class="badge badge-gcc">GCC Targeted</span>
+        </div>
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle light/dark mode" title="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── NAV TABS ───────────────────────────────────────────────── -->
+  <nav class="tab-nav" role="tablist" aria-label="Toolkit sections">
+    <button class="tab-btn active" role="tab" aria-selected="true"  aria-controls="panel-resume"    id="tab-resume"    data-tab="resume">
+      <span class="tab-icon">📄</span> Resume
+    </button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-linkedin"  id="tab-linkedin"  data-tab="linkedin">
+      <span class="tab-icon">🔗</span> LinkedIn
+    </button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-naukri"    id="tab-naukri"    data-tab="naukri">
+      <span class="tab-icon">⚡</span> Naukri Profile
+    </button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-companies" id="tab-companies" data-tab="companies">
+      <span class="tab-icon">🏢</span> Target Companies
+    </button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-roadmap"   id="tab-roadmap"   data-tab="roadmap">
+      <span class="tab-icon">🗓️</span> 30-Day Roadmap
+    </button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-interview" id="tab-interview" data-tab="interview">
+      <span class="tab-icon">🎯</span> Interview Prep
+    </button>
+    <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-ats"       id="tab-ats"       data-tab="ats">
+      <span class="tab-icon">🔑</span> ATS Keywords
+    </button>
+  </nav>
+
+  <!-- ── MAIN CONTENT ───────────────────────────────────────────── -->
+  <main class="main-content">
+
+    <!-- ═══════════════════════════════════════════ RESUME PANEL -->
+    <section id="panel-resume" role="tabpanel" aria-labelledby="tab-resume" class="tab-panel active">
+      <div class="resume-workspace">
+        <div class="resume-left">
+          <div class="panel-header">
+            <p class="panel-sub">Hyper-engineered for Principal Data Architect / Lead Technical Consultant roles at tier-1 GCCs.</p>
+            <div class="action-bar">
+              <a href="resume.pdf" class="btn-primary" download="Santosh_Jammi_Resume.pdf">📥 Download PDF Resume</a>
+              <button class="btn-ghost" onclick="copyResume()">📋 Copy Plain Text</button>
+            </div>
+          </div>
+
+      <div class="resume-doc" id="resume-content">
+        <div class="resume-header-block">
+          <h2 class="resume-name">Santosh Jammi</h2>
+          <div class="resume-title-line">Senior Data Engineer → Principal Data Architect | Microsoft Fabric &amp; Azure Native Ecosystems | Cloud FinOps Specialist</div>
+          <div class="resume-contacts">
+            <span>📍 Hyderabad, India</span>
+            <span>✉️ santu.jammi@gmail.com</span>
+            <span>📱 +91-9110580037</span>
+            <span>🔗 linkedin.com/in/santoshjammi29</span>
+          </div>
+          <div class="cert-strip">
+            <span class="cert-badge">DP-600 Fabric Analytics Engineer</span>
+            <span class="cert-badge">DP-203 Azure Data Engineer</span>
+            <span class="cert-badge">PL-300 Power BI Analyst</span>
+            <span class="cert-badge">AI-900 Azure AI Fundamentals</span>
+            <span class="cert-badge">DP-900 Data Fundamentals</span>
+            <span class="cert-badge">AZ-900 Azure Fundamentals</span>
+          </div>
+        </div>
+
+        <div class="resume-section" id="rs-summary">
+          <h3 class="section-heading">Professional Summary</h3>
+          <p class="resume-summary">
+            Strategic Lead Data Engineer with <strong>8+ years of experience</strong> and a proven <strong>5-year track record</strong> of leading high-performance engineering teams and managing direct stakeholder engagements. Expert in designing scalable <strong>Lakehouse architectures on Microsoft Azure and Microsoft Fabric</strong>, acting as the primary techno-functional bridge between business goals and technical delivery. Specializes in <strong>Cloud FinOps</strong>, significantly reducing operational costs through advanced compute optimization (DIUs, Parallelism) and SLA optimization. Deep domain expertise in the <strong>EU BFSI sector</strong>, ensuring strict GDPR / data sovereignty compliance while delivering rapid innovation and <strong>99.9% system reliability</strong>.
+          </p>
+        </div>
+
+        <div class="resume-section" id="rs-skills">
+          <h3 class="section-heading">Core Technical Competencies</h3>
+          
+          <!-- Print-Only static skills list (hidden on screen) -->
+          <div class="print-skills-grid">
+            <div class="print-skills-group">
+              <strong>🏛️ Core Architecture:</strong> Medallion Architecture, Data Mesh, Cloud FinOps, Disaster Recovery (DR), Governance, Stakeholder Management, Kimball Modeling, Inmon Methodology, Data Vault 2.0, Star / Snowflake Schemas, SCDs, Zero-Copy Architecture
+            </div>
+            <div class="print-skills-group">
+              <strong>☁️ Big Data &amp; Azure:</strong> Microsoft Fabric, OneLake &amp; Direct Lake, Azure Synapse Analytics, Azure Data Factory, ADLS Gen2, Stream Analytics, Event Hubs, Databricks, Azure SQL, Azure Cosmos DB, Logic Apps, Azure Monitor / KQL
+            </div>
+            <div class="print-skills-group">
+              <strong>⚙️ ETL / ELT &amp; Pipelines:</strong> ADF Mapping Data Flows, Idempotent Pipeline Design, Apache Airflow, SCD Type 2, ACID Compliance, Delta Lake, Liquid Clustering, Z-Ordering, Copy-On-Write (CoW), MERGE INTO / UPSERT, Delta Time Travel, Data Orchestration
+            </div>
+            <div class="print-skills-group">
+              <strong>🔐 DevOps &amp; Governance:</strong> Azure DevOps, CI/CD (YAML), Row-Level Security (RLS), GDPR Compliance, Data Sovereignty, Azure Key Vault, Service Principals, OAuth Handshake, Entra ID, RBAC, FHIR, HL7, T-SQL Advanced, KQL, ARM Templates, Schema Evolution, Data Quality Management
+            </div>
+          </div>
+
+          <div class="ticker-outer">
+            <div class="ticker-controls">
+              <span class="ticker-section-label">⚡ Scroll to explore skills</span>
+              <div class="ticker-nav-btns">
+                <button class="ticker-nav-btn" id="ticker-pause" title="Pause / Resume" aria-label="Pause or resume ticker">⏸</button>
+                <button class="ticker-nav-btn" id="ticker-slower" title="Slower" aria-label="Slow down">🐢</button>
+                <button class="ticker-nav-btn" id="ticker-faster" title="Faster" aria-label="Speed up">⚡</button>
+              </div>
+            </div>
+            <div class="skills-ticker-wrap" id="skills-ticker" aria-label="Core technical skills">
+
+            <!-- Row 1 — Core Architecture — Indigo -->
+            <div class="ticker-row ticker-row-1" aria-hidden="true">
+              <!-- first copy -->
+              <span class="ticker-label">🏛️ Core Architecture</span>
+              <span class="ticker-chip">Medallion Architecture</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Data Mesh</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Cloud FinOps</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Disaster Recovery (DR)</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Governance</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Stakeholder Management</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Kimball Modeling</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Inmon Methodology</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Data Vault 2.0</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Star / Snowflake Schemas</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">SCDs</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Zero-Copy Architecture</span><span class="ticker-sep"></span>
+              <!-- duplicate for seamless loop -->
+              <span class="ticker-label">🏛️ Core Architecture</span>
+              <span class="ticker-chip">Medallion Architecture</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Data Mesh</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Cloud FinOps</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Disaster Recovery (DR)</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Governance</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Stakeholder Management</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Kimball Modeling</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Inmon Methodology</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Data Vault 2.0</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Star / Snowflake Schemas</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">SCDs</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Zero-Copy Architecture</span><span class="ticker-sep"></span>
+            </div>
+
+            <!-- Row 2 — Big Data & Azure — Cyan (reverse) -->
+            <div class="ticker-row ticker-row-2" aria-hidden="true">
+              <span class="ticker-label">☁️ Big Data &amp; Azure</span>
+              <span class="ticker-chip">Microsoft Fabric</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">OneLake &amp; Direct Lake</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Azure Synapse Analytics</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Azure Data Factory</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">ADLS Gen2</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Stream Analytics</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Event Hubs</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Databricks</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Azure SQL</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Azure Cosmos DB</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Logic Apps</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Azure Monitor / KQL</span><span class="ticker-sep"></span>
+              <!-- duplicate -->
+              <span class="ticker-label">☁️ Big Data &amp; Azure</span>
+              <span class="ticker-chip">Microsoft Fabric</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">OneLake &amp; Direct Lake</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Azure Synapse Analytics</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Azure Data Factory</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">ADLS Gen2</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Stream Analytics</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Event Hubs</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Databricks</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Azure SQL</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Azure Cosmos DB</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Logic Apps</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Azure Monitor / KQL</span><span class="ticker-sep"></span>
+            </div>
+
+            <!-- Row 3 — ETL / ELT — Emerald -->
+            <div class="ticker-row ticker-row-3" aria-hidden="true">
+              <span class="ticker-label">⚙️ ETL / ELT &amp; Pipelines</span>
+              <span class="ticker-chip">ADF Mapping Data Flows</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Idempotent Pipeline Design</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Apache Airflow</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">SCD Type 2</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">ACID Compliance</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Delta Lake</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Liquid Clustering</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Z-Ordering</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Copy-On-Write (CoW)</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">MERGE INTO / UPSERT</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Delta Time Travel</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Data Orchestration</span><span class="ticker-sep"></span>
+              <!-- duplicate -->
+              <span class="ticker-label">⚙️ ETL / ELT &amp; Pipelines</span>
+              <span class="ticker-chip">ADF Mapping Data Flows</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Idempotent Pipeline Design</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Apache Airflow</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">SCD Type 2</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">ACID Compliance</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Delta Lake</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Liquid Clustering</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Z-Ordering</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Copy-On-Write (CoW)</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">MERGE INTO / UPSERT</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Delta Time Travel</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Data Orchestration</span><span class="ticker-sep"></span>
+            </div>
+
+            <!-- Row 4 — DevOps & Governance — Amber (reverse) -->
+            <div class="ticker-row ticker-row-4" aria-hidden="true">
+              <span class="ticker-label">🔐 DevOps &amp; Governance</span>
+              <span class="ticker-chip">Azure DevOps</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">CI/CD (YAML)</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Git Branching</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Automated Rollbacks</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Row-Level Security (RLS)</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">GDPR Compliance</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Data Sovereignty</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">T-SQL Advanced</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">KQL</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">ARM Templates</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Schema Evolution</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Data Quality Management</span><span class="ticker-sep"></span>
+              <!-- duplicate -->
+              <span class="ticker-label">🔐 DevOps &amp; Governance</span>
+              <span class="ticker-chip">Azure DevOps</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">CI/CD (YAML)</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Git Branching</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Automated Rollbacks</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Row-Level Security (RLS)</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">GDPR Compliance</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Data Sovereignty</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">T-SQL Advanced</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">KQL</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">ARM Templates</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Schema Evolution</span><span class="ticker-sep"></span>
+              <span class="ticker-chip">Data Quality Management</span><span class="ticker-sep"></span>
+            </div><!-- /.ticker-row-4 -->
+
+          </div><!-- /.skills-ticker-wrap -->
+          <div class="ticker-drag-hint">☝️ Hover to pause · Drag row to scroll · Use ⏸ ⚡ 🐢 above to control speed</div>
+          </div><!-- /.ticker-outer -->
+        </div><!-- /#rs-skills -->
+
+        <!-- Floating section navigator (appears on hover over resume-doc) -->
+        <nav class="resume-nav" aria-label="Jump to resume section">
+          <button class="nav-dot active" data-target="rs-summary"   data-label="Summary"></button>
+          <button class="nav-dot"        data-target="rs-skills"    data-label="Skills"></button>
+          <button class="nav-dot"        data-target="rs-experience" data-label="Experience"></button>
+          <button class="nav-dot"        data-target="rs-projects"  data-label="Projects"></button>
+          <button class="nav-dot"        data-target="rs-education" data-label="Education"></button>
+        </nav>
+
+        <div class="resume-section" id="rs-experience">
+          <h3 class="section-heading">Professional Experience</h3>
+
+          <div class="job-block">
+            <div class="job-header">
+              <div class="job-info">
+                <div class="job-title">Senior Data Engineer</div>
+                <div class="job-company">Tata Consultancy Services — EU BFSI / Enterprise</div>
+              </div>
+              <div class="job-meta">
+                <span class="job-location">Hyderabad, India</span>
+                <span class="job-dates">Apr 2022 – Present</span>
+              </div>
+            </div>
+            <div class="job-description">
+              <p class="job-overview">
+                Strategic engineering leader serving as the primary onsite technical point of contact for Product Owners and Architects. Managed offshore delivery of <strong>5+ engineers</strong>, ensuring zero schedule slippage across sprint deliverables while building highly resilient systems.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-governance">Leadership</span>
+                Served as <strong>primary technical point of contact</strong> for onsite Product Owners and Architects, facilitating requirement discovery, managing offshore delivery of <strong>5+ engineers</strong>, and ensuring <strong>zero schedule slippage</strong> across all sprint deliverables.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-delta">Lakehouse</span>
+                Designed a robust <strong>Medallion Architecture (Bronze / Silver / Gold)</strong> managing <strong>5TB+ data</strong>. Implemented idempotent ETL patterns with strict integrity constraints (MERGE INTO / ACID Delta Lake) to ensure <strong>100% data consistency</strong> across all pipeline retries and transient cluster failures.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-finops">FinOps</span>
+                Led compute optimization — dynamically tuning <strong>DIUs and Parallelism</strong> in Azure Data Factory and resolving Integration Runtime bottlenecks — delivering a <strong>40% reduction in data processing latency</strong> and significant cloud cost savings across enterprise pipelines.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-fabric">Fabric</span>
+                Architected resilient <strong>Microsoft Fabric semantic models using Direct Lake</strong> mode, carefully managing F64 capacity memory guardrails (25 GB) to entirely eliminate refresh failures and ensure <strong>high availability for C-level dashboards</strong>, preventing DirectQuery fallback latency.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-devops">DevOps</span>
+                Automated <strong>CI/CD via Azure DevOps / YAML</strong> with automated rollback strategies; enforced strict <strong>Schema Evolution</strong> policies to maintain 100% downstream platform stability across 5+ concurrent engineering squads.
+              </p>
+            </div>
+          </div>
+
+          <div class="job-block">
+            <div class="job-header">
+              <div class="job-info">
+                <div class="job-title">Senior Data Engineer</div>
+                <div class="job-company">Larsen &amp; Toubro Infotech (LTIMindtree) — Enterprise Data</div>
+              </div>
+              <div class="job-meta">
+                <span class="job-location">Bengaluru, India</span>
+                <span class="job-dates">Apr 2021 – Apr 2022</span>
+              </div>
+            </div>
+            <div class="job-description">
+              <p class="job-overview">
+                Orchestrated enterprise data modernization pipelines, translating complex client business logic into high-efficiency Azure infrastructure.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-perf">ETL Performance</span>
+                Re-engineered legacy pipelines using <strong>Azure Data Factory</strong>, solving the Small File Problem and cutting query execution times by <strong>40%</strong> through parallelism tuning, partition optimization, and Integration Runtime right-sizing.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-fabric">Reporting</span>
+                Redesigned <strong>Power BI models with aggregation tables</strong>, improving report load speeds by <strong>25%</strong> and achieving high availability across all executive and operational reporting workloads.
+              </p>
+            </div>
+          </div>
+
+          <div class="job-block">
+            <div class="job-header">
+              <div class="job-info">
+                <div class="job-title">Technology Analyst → Senior System Engineer → System Engineer</div>
+                <div class="job-company">Infosys Limited — Enterprise Technology</div>
+              </div>
+              <div class="job-meta">
+                <span class="job-location">Hyderabad, India</span>
+                <span class="job-dates">Dec 2017 – Apr 2021</span>
+              </div>
+            </div>
+            <div class="job-description">
+              <p class="job-overview">
+                Led end-to-end data platform engineering and BI solution delivery, specializing in secure architecture design and transactional query tuning for financial reporting workloads.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-governance">Data Quality</span>
+                Improved data model accuracy by <strong>20%</strong> through automated data cleansing and validation frameworks, establishing consistent data quality standards across enterprise financial reporting pipelines.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-governance">Security</span>
+                Integrated Power BI with SaaS applications, implementing <strong>Row-Level Security (RLS)</strong> for sensitive financial data and designing role-based access controls governing the end-to-end lifecycle from data modeling to dashboard deployment.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-perf">Performance</span>
+                Increased data processing efficiency by <strong>15%</strong> through advanced T-SQL query tuning, index optimization, and stored procedure refactoring across large-scale SQL Server and Azure SQL workloads.
+              </p>
+              <p class="job-para">
+                <span class="para-tag tag-fabric">Platform</span>
+                Collaborated with cross-functional teams to develop high-impact data products utilizing <strong>SQL Server and Azure services</strong> for efficient large-scale processing, supporting business intelligence initiatives across multiple domains.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-section" id="rs-projects">
+          <h3 class="section-heading">Key Projects & Architectural Highlights</h3>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-title">5TB Medallion Lakehouse — EU Enterprise (TCS)</div>
+              <div class="project-tech">Fabric · Delta Lake · ADLS Gen2 · ADF · Azure Monitor</div>
+              <div class="project-desc">Designed Bronze-Silver-Gold Medallion architecture managing 5TB+ data for EU BFSI clients at TCS. Implemented idempotent MERGE INTO patterns ensuring 100% data consistency across all pipeline retries. Delivered 99.9% platform reliability with full GDPR compliance.</div>
+            </div>
+            <div class="project-card">
+              <div class="project-title">Microsoft Fabric Semantic Model — C-Level Dashboards</div>
+              <div class="project-tech">Microsoft Fabric · Direct Lake · OneLake · Power BI · DP-600</div>
+              <div class="project-desc">Architected resilient Fabric semantic models using Direct Lake mode at TCS. Managed F64 capacity guardrails (25 GB memory limit) to eliminate all refresh failures, accelerating C-level dashboard render speeds and achieving high availability for executive reporting.</div>
+            </div>
+            <div class="project-card">
+              <div class="project-title">ADF Pipeline Re-engineering — Small File Elimination (LTI)</div>
+              <div class="project-tech">Azure Data Factory · Synapse · Power BI · Aggregation Tables</div>
+              <div class="project-desc">Re-engineered legacy ETL pipelines at LTIMindtree to solve the Small File Problem, cutting query execution times by 40%. Simultaneously redesigned Power BI aggregation models, improving report load speeds by 25% across all high-availability business reports.</div>
+            </div>
+            <div class="project-card">
+              <div class="project-title">FinOps &amp; Compute Optimization — DIU Tuning (TCS)</div>
+              <div class="project-tech">ADF · DIU Optimization · Integration Runtime · CI/CD YAML</div>
+              <div class="project-desc">Led Cloud FinOps initiative at TCS optimizing DIU allocation and parallelism across enterprise ADF pipelines. Resolved Integration Runtime bottlenecks and automated CI/CD via Azure DevOps YAML, delivering a 40% reduction in data processing latency with significant measurable cost savings.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-section" id="rs-education">
+          <h3 class="section-heading">Education</h3>
+          <div class="edu-block">
+            <div class="edu-title">B.Tech – Electrical &amp; Electronics Engineering (EEE) — 70%</div>
+            <div class="edu-school">Raghu Engineering College, Visakhapatnam — Aug 2013 – May 2017</div>
+          </div>
+          <div class="edu-block" style="margin-top:10px">
+            <div class="edu-title">Intermediate – MPC — 90%</div>
+            <div class="edu-school">Narayana Junior College, Vizianagaram — May 2011 – May 2013</div>
+          </div>
+          <div class="edu-block" style="margin-top:10px">
+            <div class="edu-title">Class 10th — 90%</div>
+            <div class="edu-school">New Central School, Vizianagaram — Mar 2010 – Mar 2011</div>
+          </div>
+        </div>
+      </div><!-- /.resume-left -->
+
+      <div class="resume-right">
+        <div class="pdf-preview-card">
+          <div class="pdf-preview-header">
+            <span class="pdf-dot red"></span>
+            <span class="pdf-dot yellow"></span>
+            <span class="pdf-dot green"></span>
+            <span class="pdf-preview-title">PDF Preview</span>
+          </div>
+          <div class="pdf-preview-body">
+            <iframe src="resume.pdf#toolbar=0&navpanes=0&scrollbar=0" width="100%" height="100%" style="border: none; background: white;"></iframe>
+          </div>
+        </div>
+        <div class="pdf-mobile-fallback">
+          <div class="pdf-fallback-icon">📄</div>
+          <div class="pdf-fallback-text">PDF Preview is optimized for desktop screens.</div>
+        </div>
+      </div><!-- /.resume-right -->
+
+    </div><!-- /.resume-workspace -->
+  </section>
+
+    <!-- ═══════════════════════════════════════════ LINKEDIN PANEL -->
+    <section id="panel-linkedin" role="tabpanel" aria-labelledby="tab-linkedin" class="tab-panel" hidden>
+      <div class="panel-header">
+        <h1>LinkedIn Optimization Kit</h1>
+        <p class="panel-sub">Ready-to-paste headline options, About section, and 3 deep-technical authority posts. Click any section to copy it.</p>
+      </div>
+
+      <!-- Headlines -->
+      <div class="li-section">
+        <h2 class="li-section-title">🏷️ Headline Options</h2>
+        <div class="headline-cards">
+          <div class="headline-card recommended" onclick="copyText(this)" data-copy="Principal Data Architect | Microsoft Fabric & Azure Native Ecosystems | Cloud FinOps Specialist | DP-600 & DP-203 Certified | Designing 5TB+ Resilient Medallion Lakehouse Architectures for Global Enterprises">
+            <div class="card-label">⭐ Recommended — 211 chars</div>
+            <div class="headline-text">Principal Data Architect | Microsoft Fabric & Azure Native Ecosystems | Cloud FinOps Specialist | DP-600 & DP-203 Certified | Designing 5TB+ Resilient Medallion Lakehouse Architectures for Global Enterprises</div>
+            <div class="card-why">Best blend: seniority + technology keywords + quantifiable scale + certifications. Signals immediate readiness for enterprise roles.</div>
+            <div class="copy-hint">Click to copy</div>
+          </div>
+          <div class="headline-card" onclick="copyText(this)" data-copy="Lead Cloud Data Engineer | Azure Data Factory, Synapse & Microsoft Fabric | Driving Enterprise Cloud FinOps, Idempotent Pipeline Design & Scalable Databricks Orchestration | Open to Global Opportunities">
+            <div class="card-label">Option B — 208 chars</div>
+            <div class="headline-text">Lead Cloud Data Engineer | Azure Data Factory, Synapse & Microsoft Fabric | Driving Enterprise Cloud FinOps, Idempotent Pipeline Design & Scalable Databricks Orchestration | Open to Global Opportunities</div>
+            <div class="card-why">Targets hybrid ADF + Databricks recruiters. Explicitly states global availability.</div>
+            <div class="copy-hint">Click to copy</div>
+          </div>
+          <div class="headline-card" onclick="copyText(this)" data-copy="Senior Enterprise Data Architect | Microsoft Azure & Fabric Analytics Engineer (DP-600) | Transforming Legacy Platforms into High-Performance, AI-Ready Lakehouses | EU BFSI Data Governance & Compliance">
+            <div class="card-label">Option C — 207 chars</div>
+            <div class="headline-text">Senior Enterprise Data Architect | Microsoft Azure & Fabric Analytics Engineer (DP-600) | Transforming Legacy Platforms into High-Performance, AI-Ready Lakehouses | EU BFSI Data Governance & Compliance</div>
+            <div class="card-why">Appeals directly to banking & healthcare. Highlights governance, DP-600 cert, and EU BFSI compliance expertise.</div>
+            <div class="copy-hint">Click to copy</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Section -->
+      <div class="li-section">
+        <h2 class="li-section-title">📝 About Section</h2>
+        <div class="copyable-block" id="about-block" onclick="copyBlock('about-block')">
+          <div class="copy-overlay">Click to copy</div>
+          <p>As a Principal Data Architect and Strategic Lead with over 8 years of dedicated experience in the Microsoft Azure native ecosystem, my expertise lies in designing and orchestrating planetary-scale data platforms that bridge complex business objectives with high-performance technical delivery.</p>
+          <br/>
+          <p>Holding advanced certifications across the Azure stack (DP-600 Fabric Analytics, DP-203 Azure Data Engineer, and PL-300 Power BI), I specialize in the modernization of legacy infrastructures into highly resilient Medallion Lakehouse architectures. My recent focus has been on driving Microsoft Fabric implementation — leveraging OneLake interoperability and Direct Lake semantic modeling — to eliminate data silos and accelerate executive decision-making.</p>
+          <br/>
+          <p>Furthermore, I bring a rigorous engineering mindset to Cloud FinOps, consistently reducing operational expenditures by optimizing Data Integration Units (DIUs) and cluster parallelism. Having successfully managed 5TB+ data ecosystems within strictly regulated EU BFSI environments, I am highly adept at enforcing GDPR compliance and data sovereignty.</p>
+          <br/>
+          <p>I am currently open to global remote contracts and international corporate sponsorships where I can lead cross-functional engineering squads and drive enterprise-wide data transformations.</p>
+          <br/>
+          <p>🔑 <strong>Core Focus:</strong> Microsoft Fabric | OneLake | Direct Lake | Delta Lake | Cloud FinOps | Medallion Architecture | Azure Data Factory | Databricks Unity Catalog | GDPR | Data Governance</p>
+        </div>
+      </div>
+
+      <!-- Posts -->
+      <div class="li-section">
+        <h2 class="li-section-title">📢 Authority Post Series</h2>
+
+        <div class="post-card">
+          <div class="post-meta">
+            <span class="post-number">Post A</span>
+            <span class="post-topic">Direct Lake Mode vs. Import vs. DirectQuery</span>
+            <button class="btn-copy-post" onclick="copyBlock('post-a')">Copy Post</button>
+          </div>
+          <div class="copyable-block" id="post-a">
+            <div class="copy-overlay">Click to copy</div>
+            <p>🚨 <strong>Your Power BI dashboard is lying to you — and it's costing your company thousands per month.</strong></p>
+            <br/>
+            <p>Here's a pattern I see repeatedly in Microsoft Fabric migrations:</p>
+            <p>Teams celebrate moving to Fabric, but the dashboards still feel slow. Here's why: they've silently fallen into <strong>DirectQuery Fallback</strong> — and they don't even know it.</p>
+            <br/>
+            <p><strong>A quick architecture breakdown:</strong></p>
+            <p>🔴 Import Mode → Fast queries, but data is duplicated and always stale by hours</p>
+            <p>🟡 DirectQuery → Always fresh, but every click translates to an expensive SQL round-trip against the MPP engine</p>
+            <p>🟢 Direct Lake → The breakthrough: loads Delta Parquet files DIRECTLY from OneLake into the Analysis Services memory. No duplication. Near-real-time freshness. Lightning speed.</p>
+            <br/>
+            <p><strong>But here's the architectural trap nobody talks about:</strong></p>
+            <p>An F64 Fabric SKU has a hard memory ceiling of 25 GB and a 1.5 billion row limit per table.</p>
+            <p>When your semantic model exceeds this threshold, Fabric tries to page data in and out of OneLake. When that fails, it silently falls back to DirectQuery — bypassing the entire in-memory advantage and hammering the SQL Analytics Endpoint.</p>
+            <p>Result? 45-second dashboard renders. Capacity spikes. Unhappy stakeholders.</p>
+            <br/>
+            <p><strong>The fix (from an architecture level):</strong></p>
+            <p>✅ Remove high-cardinality columns (transaction IDs, GUIDs) from the semantic model entirely</p>
+            <p>✅ Aggressively partition Delta tables to minimize per-query memory footprint</p>
+            <p>✅ Compact small Parquet files regularly using OPTIMIZE + VACUUM</p>
+            <p>✅ Temporarily disable DirectQuery fallback during testing to expose breaking queries explicitly</p>
+            <br/>
+            <p>The 25 GB guardrail is not a bug. It's a design constraint that rewards architecturally disciplined data engineers.</p>
+            <br/>
+            <p>Are you managing Fabric capacity limits in your organization? What's your optimization strategy?</p>
+            <br/>
+            <p>#MicrosoftFabric #DataArchitecture #DirectLake #PowerBI #CloudFinOps #DataEngineering #OneLake #AzureData</p>
+          </div>
+        </div>
+
+        <div class="post-card">
+          <div class="post-meta">
+            <span class="post-number">Post B</span>
+            <span class="post-topic">Cloud FinOps in Azure Data Factory — DIU Mathematics</span>
+            <button class="btn-copy-post" onclick="copyBlock('post-b')">Copy Post</button>
+          </div>
+          <div class="copyable-block" id="post-b">
+            <div class="copy-overlay">Click to copy</div>
+            <p>💸 <strong>I audited an ADF pipeline that was burning $4,200/month unnecessarily. Here's the exact fix — and the math behind it.</strong></p>
+            <br/>
+            <p>Most data engineers measure pipeline success by asking: "Did it run?"</p>
+            <p>Senior architects ask: "At what cost per byte did it run?"</p>
+            <br/>
+            <p>This distinction is worth 15–20 LPA at tier-1 GCCs.</p>
+            <br/>
+            <p><strong>First, understand the unit economics of ADF:</strong></p>
+            <p>A Data Integration Unit (DIU) is a composite measure of CPU + memory + network bandwidth.</p>
+            <p>Azure charges <strong>$0.25 per DIU-hour</strong> for copy activities.</p>
+            <br/>
+            <p><strong>The failure pattern I found:</strong></p>
+            <p>• Pipeline: 7-hour sequential run, fixed at 4 DIUs</p>
+            <p>• Cost: 4 DIUs × 7 hours × $0.25 = $7.00 per run</p>
+            <p>• Monthly (20 business days): $140/pipeline</p>
+            <p>• Scale to 30 such pipelines = $4,200/month — for a workload that could complete in 45 minutes.</p>
+            <br/>
+            <p><strong>The architectural fix:</strong></p>
+            <p>✅ Increase DIU allocation strategically (not blindly) to scale parallelism</p>
+            <p>✅ Define explicit parallel copy settings based on data payload characteristics</p>
+            <p>✅ Set Time-to-Live (TTL) on integration runtimes to prevent idle compute charges</p>
+            <p>✅ Implement dynamic DIU allocation via pipeline parameters — let payload SIZE drive DIU count, not gut instinct</p>
+            <br/>
+            <p><strong>After optimization:</strong></p>
+            <p>• Runtime: 45 minutes (down from 7 hours)</p>
+            <p>• Monthly cost per pipeline: ~$18</p>
+            <p>• Savings: ~83% reduction</p>
+            <br/>
+            <p>Cloud FinOps isn't about being cheap. It's about making infrastructure cost scale linearly with data volume — not exponentially with engineering laziness.</p>
+            <br/>
+            <p>What's your most impactful ADF optimization story? Drop it below 👇</p>
+            <br/>
+            <p>#AzureDataFactory #CloudFinOps #DataEngineering #ADF #MicrosoftAzure #DataArchitecture #CostOptimization #GCC</p>
+          </div>
+        </div>
+
+        <div class="post-card">
+          <div class="post-meta">
+            <span class="post-number">Post C</span>
+            <span class="post-topic">Idempotent Delta Lake MERGE INTO — Zero Duplicate Guarantee</span>
+            <button class="btn-copy-post" onclick="copyBlock('post-c')">Copy Post</button>
+          </div>
+          <div class="copyable-block" id="post-c">
+            <div class="copy-overlay">Click to copy</div>
+            <p>⚡ <strong>Your Spark pipeline WILL fail. The question is: will your data survive it?</strong></p>
+            <br/>
+            <p>In distributed systems, failure is not a possibility — it's a certainty.</p>
+            <p>The difference between a junior engineer and a Principal Architect is this:</p>
+            <p>Juniors write retry logic. Architects design systems that inherently cannot produce duplicate data, regardless of how many times they retry.</p>
+            <br/>
+            <p>This is called <strong>idempotency</strong>.</p>
+            <br/>
+            <p><strong>The legacy failure pattern (append-only pipelines):</strong></p>
+            <p>1. Spark node crashes mid-write at record #847,291</p>
+            <p>2. Pipeline auto-retries from the beginning</p>
+            <p>3. Records 1 through 847,290 are now duplicated in your staging table</p>
+            <p>4. Your C-suite revenue report now shows 2× the actual sales figures</p>
+            <p>5. You spend 3 days in a war room explaining why the data is wrong</p>
+            <br/>
+            <p><strong>The Delta Lake MERGE INTO solution:</strong></p>
+            <p>Instead of appending, you define the EXACT resolution logic:</p>
+            <br/>
+            <p><code>MERGE INTO target_table AS target</code></p>
+            <p><code>USING source_data AS source</code></p>
+            <p><code>ON target.record_id = source.record_id</code></p>
+            <p><code>WHEN MATCHED THEN UPDATE SET *</code></p>
+            <p><code>WHEN NOT MATCHED THEN INSERT *</code></p>
+            <br/>
+            <p>Run this 1 time or 100 times. The final state of the table is IDENTICAL.</p>
+            <br/>
+            <p><strong>Why this is guaranteed safe:</strong></p>
+            <p>Delta Lake enforces full ACID compliance via its transaction log (_delta_log).</p>
+            <p>A partially failed MERGE transaction is NEVER committed. The transaction log ensures atomicity — either the entire merge succeeds and is logged as a new commit, or the table state rolls back completely.</p>
+            <br/>
+            <p>This is not just a coding pattern. It's an architectural philosophy:</p>
+            <p>Stop handling errors. Start building systems that ignore them.</p>
+            <br/>
+            <p>Are you using idempotent MERGE patterns in your Medallion architecture? What's your MATCHED / NOT MATCHED strategy for SCD Type 2?</p>
+            <br/>
+            <p>#DeltaLake #DataEngineering #ApacheSpark #DataArchitecture #Databricks #MicrosoftFabric #ACID #MedallionArchitecture #DataQuality</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ NAUKRI PANEL -->
+    <section id="panel-naukri" role="tabpanel" aria-labelledby="tab-naukri" class="tab-panel" hidden>
+      <div class="panel-header">
+        <h1>Naukri Profile Optimization Kit</h1>
+        <p class="panel-sub">Algorithmic hacks and optimized copy-paste content specifically designed to maximize visibility and profile score on India's primary recruitment portal.</p>
+      </div>
+
+      <!-- Resume Headline -->
+      <div class="li-section">
+        <h2 class="li-section-title">🏷️ Naukri Resume Headline</h2>
+        <p style="margin-bottom: 12px; font-size: 0.82rem; color: var(--text-secondary)">The resume headline is highly indexed by Naukri's search crawler. Choose one of these target-rich headlines:</p>
+        <div class="headline-cards">
+          <div class="headline-card recommended" onclick="copyText(this)" data-copy="Principal Data Architect | Lead Technical Consultant | 8+ Yrs | Microsoft Fabric (DP-600), Azure Data Factory, Databricks Unity Catalog, Cloud FinOps, Medallion Lakehouses, EU BFSI Security">
+            <div class="card-label">⭐ Recommended — 207 chars</div>
+            <div class="headline-text">Principal Data Architect | Lead Technical Consultant | 8+ Yrs | Microsoft Fabric (DP-600), Azure Data Factory, Databricks Unity Catalog, Cloud FinOps, Medallion Lakehouses, EU BFSI Security</div>
+            <div class="card-why">Best for Senior / Lead Architectural roles. Packed with high-value search tags that recruiters filter for.</div>
+            <div class="copy-hint">Click to copy</div>
+          </div>
+          <div class="headline-card" onclick="copyText(this)" data-copy="Lead Data Engineer | 8+ Yrs | Azure Data Factory, Databricks, PySpark, Microsoft Fabric | Cloud FinOps | Implementing Idempotent Delta Pipelines &amp; Large Scale Medallion Architectures">
+            <div class="card-label">Option B — 189 chars</div>
+            <div class="headline-text">Lead Data Engineer | 8+ Yrs | Azure Data Factory, Databricks, PySpark, Microsoft Fabric | Cloud FinOps | Implementing Idempotent Delta Pipelines &amp; Large Scale Medallion Architectures</div>
+            <div class="card-why">Focuses heavily on hands-on engineering scale, Spark, and data transformation pipeline delivery.</div>
+            <div class="copy-hint">Click to copy</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key Skills Tags -->
+      <div class="li-section">
+        <h2 class="li-section-title">🔑 Naukri Key Skills (Algorithmic Tags)</h2>
+        <p style="margin-bottom: 16px; font-size: 0.82rem; color: var(--text-secondary)">Recruiters search Naukri by selecting exact tags. Ensure your profile has the maximum number of high-relevance tags (click to copy):</p>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+          <div style="background: var(--bg-card); border: 1px solid var(--border); padding: 18px; border-radius: var(--radius-lg);">
+            <div style="font-size: 0.85rem; font-weight: 700; color: var(--indigo-light); margin-bottom: 10px;">☁️ Core Platforms &amp; Storage</div>
+            <div class="ats-chips">
+              <span class="ats-chip" onclick="copyKeyword(this, 'Microsoft Fabric')">Microsoft Fabric</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'OneLake')">OneLake</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Direct Lake')">Direct Lake</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Delta Lake')">Delta Lake</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Databricks')">Databricks</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Unity Catalog')">Unity Catalog</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Azure Data Factory')">Azure Data Factory</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Azure Synapse')">Azure Synapse</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'ADLS Gen2')">ADLS Gen2</span>
+            </div>
+          </div>
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border); padding: 18px; border-radius: var(--radius-lg);">
+            <div style="font-size: 0.85rem; font-weight: 700; color: var(--emerald); margin-bottom: 10px;">⚙️ Engineering &amp; Architecture</div>
+            <div class="ats-chips">
+              <span class="ats-chip" onclick="copyKeyword(this, 'PySpark')">PySpark</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Medallion Architecture')">Medallion Architecture</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Cloud FinOps')">Cloud FinOps</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Idempotent Ingestion')">Idempotent Ingestion</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'SCD Type 2')">SCD Type 2</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Data Mesh')">Data Mesh</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Kimball Modeling')">Kimball Modeling</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Data Vault 2.0')">Data Vault 2.0</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Liquid Clustering')">Liquid Clustering</span>
+            </div>
+          </div>
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border); padding: 18px; border-radius: var(--radius-lg);">
+            <div style="font-size: 0.85rem; font-weight: 700; color: var(--amber); margin-bottom: 10px;">🔐 DevOps, BI &amp; Security</div>
+            <div class="ats-chips">
+              <span class="ats-chip" onclick="copyKeyword(this, 'Azure DevOps')">Azure DevOps</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'CI/CD YAML Pipelines')">CI/CD YAML Pipelines</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Row-Level Security')">Row-Level Security</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'GDPR Compliance')">GDPR Compliance</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Power BI')">Power BI</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Azure Key Vault')">Azure Key Vault</span>
+              <span class="ats-chip" onclick="copyKeyword(this, 'Schema Evolution')">Schema Evolution</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile Summary -->
+      <div class="li-section">
+        <h2 class="li-section-title">📝 Naukri Profile Summary</h2>
+        <p style="margin-bottom: 12px; font-size: 0.82rem; color: var(--text-secondary)">Paste this summary into your Naukri profile bio. It contains crucial density of target titles and technical keywords:</p>
+        <div class="copyable-block" id="naukri-summary-block" onclick="copyBlock('naukri-summary-block')">
+          <div class="copy-overlay">Click to copy</div>
+          <p>Strategic Lead Data Engineer &amp; Principal Data Architect with 8+ years of experience designing and managing planetary-scale data platform architectures within the Microsoft Azure native ecosystem. Expert in building highly resilient 5TB+ Medallion Lakehouses (Bronze-Silver-Gold) using Delta Lake, Databricks (Unity Catalog), and Microsoft Fabric (OneLake, Direct Lake).</p>
+          <br/>
+          <p>Specialist in Cloud FinOps, delivering up to 40% reduction in data processing latency and significant compute cost savings through Data Integration Unit (DIU) tuning and cluster parallelism optimization. Deep domain experience in the regulated EU BFSI sector, establishing strict GDPR data sovereignty, end-to-end data quality checks, and robust Row-Level Security (RLS) policies. Certified Fabric Analytics Engineer (DP-600), Azure Data Engineer (DP-203), and Power BI Analyst (PL-300).</p>
+        </div>
+      </div>
+
+      <!-- Profile Refresh Hacks -->
+      <div class="li-section">
+        <h2 class="li-section-title">💡 Naukri Algorithmic Visibility Hacks</h2>
+        <div style="display: grid; grid-template-columns: 1fr; gap: 12px;">
+          <div class="fabric-premium-explainer" style="background: rgba(99,102,241,0.06); border: 1px solid rgba(99,102,241,0.2); margin-top: 0;">
+            <div class="explainer-icon">⏰</div>
+            <div>
+              <strong>Daily Profile Refresh:</strong> The Naukri recruiter dashboard sorts candidate search queries strictly by the "Last Active" timestamp. To push your profile back to the top of recruiter searches, log in daily, make a tiny modification to your resume headline or profile summary (e.g., adding or removing a space), and save. This single action increases recruiter views by up to 5x.
+            </div>
+          </div>
+          <div class="fabric-premium-explainer" style="background: rgba(16,185,129,0.06); border: 1px solid rgba(16,185,129,0.2); margin-top: 0;">
+            <div class="explainer-icon">🎯</div>
+            <div>
+              <strong>Designation Alignment:</strong> Ensure your "Current Designation" is set to <strong>"Senior Data Engineer / Lead Technical Consultant"</strong> and your "Preferred Designation" explicitly lists <strong>"Principal Data Architect"</strong> and <strong>"Lead Data Engineer"</strong>. Recruiters search using target designations, so matching their exact search filters is essential.
+            </div>
+          </div>
+          <div class="fabric-premium-explainer" style="background: rgba(245,158,11,0.06); border: 1px solid rgba(245,158,11,0.2); margin-top: 0;">
+            <div class="explainer-icon">🎓</div>
+            <div>
+              <strong>Fill Out All Verification Steps:</strong> Profiles with 100% completion scores rank substantially higher. Link and verify your email, phone number, and upload an ATS-matching resume (matching the PDF version from this toolkit) so that Naukri's system indexes the resume document text for recruiters.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════ TARGET COMPANIES PANEL -->
+    <section id="panel-companies" role="tabpanel" aria-labelledby="tab-companies" class="tab-panel" hidden>
+      <div class="panel-header">
+        <h1>Tier-1 Target Companies</h1>
+        <p class="panel-sub">15 GCC organizations with confirmed large-scale Azure / Fabric investments. Prioritize by alignment to your domain expertise.</p>
+      </div>
+
+      <div class="comp-filters">
+        <button class="filter-btn active" data-filter="all">All (15)</button>
+        <button class="filter-btn" data-filter="bfsi">BFSI (5)</button>
+        <button class="filter-btn" data-filter="health">Healthcare (4)</button>
+        <button class="filter-btn" data-filter="tech">Tech / Cloud (3)</button>
+        <button class="filter-btn" data-filter="retail">Retail / Other (3)</button>
+      </div>
+
+      <div class="comp-grid" id="comp-grid">
+        <!-- Cards injected by JS -->
+      </div>
+
+      <div class="comp-summary">
+        <h2>Compensation Reality Check — The Fabric Premium</h2>
+        <div class="comp-table-wrap">
+          <table class="comp-table">
+            <thead>
+              <tr>
+                <th>Experience Level</th>
+                <th>Standard Azure / ADF (LPA)</th>
+                <th>Premium Fabric + Databricks (LPA)</th>
+                <th>Compensation Spike</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mid-Level Engineer (3–5 yrs)</td>
+                <td>₹15 L – ₹20 L</td>
+                <td class="premium-cell">₹20 L – ₹28 L</td>
+                <td class="spike-cell">33% – 40%</td>
+              </tr>
+              <tr>
+                <td>Senior Engineer (5–8 yrs)</td>
+                <td>₹20 L – ₹25 L</td>
+                <td class="premium-cell">₹28 L – ₹38 L</td>
+                <td class="spike-cell">40% – 52%</td>
+              </tr>
+              <tr class="highlight-row">
+                <td><strong>Principal Architect (8–10+ yrs)</strong></td>
+                <td>₹25 L – ₹35 L</td>
+                <td class="premium-cell"><strong>₹40 L – ₹55 L+</strong></td>
+                <td class="spike-cell"><strong>42% – 60%</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="fabric-premium-explainer">
+          <div class="explainer-icon">💡</div>
+          <div>
+            <strong>Why the Fabric Premium exists:</strong> An F64 capacity costs ~$8,409.60/month (pay-as-you-go). Exceeding the 25 GB Direct Lake memory limit triggers DirectQuery fallback, exponentially spiking compute costs and degrading dashboard performance. An architect who prevents this pays for themselves many times over.
+          </div>
+        </div>
+      </div>
+
+      <div class="intl-section">
+        <h2>International Recruitment Networks</h2>
+        <div class="intl-grid">
+          <div class="intl-card">
+            <div class="intl-name">Jefferson Frank</div>
+            <div class="intl-focus">Microsoft Azure & Cloud Architecture</div>
+            <div class="intl-detail">Global leader in specialized cloud recruitment. Manages lucrative remote/hybrid contracts — UK/EU engagements at £550–£700/day outside IR35.</div>
+          </div>
+          <div class="intl-card">
+            <div class="intl-name">Toptal</div>
+            <div class="intl-focus">Elite Freelance Engineering — Top 3%</div>
+            <div class="intl-detail">Rigorously vetted marketplace. Passing multi-stage technical screening unlocks premium international remote contracts with Fortune 500 companies.</div>
+          </div>
+          <div class="intl-card">
+            <div class="intl-name">VanHack</div>
+            <div class="intl-focus">Global Relocation & Visa Sponsorship</div>
+            <div class="intl-detail">Bridges global talent to Canada, EU, and US roles offering visa sponsorship (H-1B, TN, O-1A, E-3, EU Blue Card) or relocation assistance.</div>
+          </div>
+          <div class="intl-card">
+            <div class="intl-name">Relocate.me</div>
+            <div class="intl-focus">Curated EU/UK Relocation Opportunities</div>
+            <div class="intl-detail">Exclusively features jobs with verified visa sponsorship and relocation support. Eliminates friction of searching "willing to sponsor" keywords.</div>
+          </div>
+          <div class="intl-card">
+            <div class="intl-name">Arc.dev</div>
+            <div class="intl-focus">High-Paying Remote-First Placements</div>
+            <div class="intl-detail">Remote-first platform for senior engineers. Skill-based matching with robust legal structures for cross-border full-time employment pegged to USD/GBP.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ 30-DAY ROADMAP PANEL -->
+    <section id="panel-roadmap" role="tabpanel" aria-labelledby="tab-roadmap" class="tab-panel" hidden>
+      <div class="panel-header">
+        <h1>30-Day Architectural Fluency Roadmap</h1>
+        <p class="panel-sub">Build an impenetrable Databricks and PySpark architectural foundation in 4 focused weeks. Designed to enable you to control system design interviews without daily scripting experience.</p>
+      </div>
+
+      <div class="roadmap-grid">
+        <div class="week-card week-1">
+          <div class="week-header">
+            <div class="week-badge">Week 1</div>
+            <div class="week-title">Unified Governance & Zero-Copy Architecture</div>
+            <div class="week-days">Days 1–7</div>
+          </div>
+          <div class="week-body">
+            <div class="focus-area">
+              <div class="focus-icon">🏛️</div>
+              <div>Master the <strong>Unity Catalog hierarchy</strong>: Metastore → Catalog → Schema → Table. Understand governance at each level.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">📦</div>
+              <div>Deep study: <strong>Managed Tables</strong> (data in UC root bucket) vs <strong>External Tables</strong> (data in existing ADLS Gen2 lakes) — their lifecycle, access control, and governance implications.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">🔐</div>
+              <div>Master the exact <strong>OAuth + Service Principal (SPN) handshake</strong> required to expose Databricks Delta tables to Fabric via OneLake ABFS shortcuts — without duplicating data.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">🔗</div>
+              <div>Configure <strong>Azure Key Vault Secret Scopes</strong> in Databricks to handle OAuth credentials. Practice the Storage Blob Data Contributor role assignment on ADLS Gen2.</div>
+            </div>
+            <div class="week-deliverable">
+              <strong>Week 1 Deliverable:</strong> You can explain zero-copy OneLake integration end-to-end including security handshake, without referring to notes.
+            </div>
+          </div>
+        </div>
+
+        <div class="week-card week-2">
+          <div class="week-header">
+            <div class="week-badge">Week 2</div>
+            <div class="week-title">The Optimization Engine: Liquid Clustering vs Z-Ordering</div>
+            <div class="week-days">Days 8–14</div>
+          </div>
+          <div class="week-body">
+            <div class="focus-area">
+              <div class="focus-icon">📐</div>
+              <div>Deconstruct <strong>Z-ordering (Z-curves)</strong>: why it requires a full-table rewrite on every OPTIMIZE run and how high cardinality and data skew cause write amplification at scale.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">🌊</div>
+              <div>Deep study: <strong>Liquid Clustering (Hilbert curves)</strong>. Understand why Hilbert curves provide tighter bounding boxes, better data skipping, and superior distance preservation between adjacent data points.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">⚡</div>
+              <div>Master the <strong>incremental clustering model</strong>: Liquid Clustering only re-clusters new unstable Z-cubes until they reach target size — leaving sealed historical Z-cubes completely untouched.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">🚫</div>
+              <div>Memorize why <strong>Z-ordering and Liquid Clustering are mutually exclusive</strong> technologies. Practice explaining this in a system design context.</div>
+            </div>
+            <div class="week-deliverable">
+              <strong>Week 2 Deliverable:</strong> Can explain why a 6-hour OPTIMIZE job should be replaced with Liquid Clustering, with specific DBU cost justification.
+            </div>
+          </div>
+        </div>
+
+        <div class="week-card week-3">
+          <div class="week-header">
+            <div class="week-badge">Week 3</div>
+            <div class="week-title">Resiliency & ACID Mechanics — Delta Transaction Logs</div>
+            <div class="week-days">Days 15–21</div>
+          </div>
+          <div class="week-body">
+            <div class="focus-area">
+              <div class="focus-icon">📁</div>
+              <div>Study the <strong>_delta_log directory</strong> structure: JSON commit files (individual transactions) and Parquet checkpoint files (periodic consolidated snapshots). Understand how they dictate the current state of a table.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">✍️</div>
+              <div>Master <strong>Copy-On-Write (CoW)</strong> mechanics during upserts: how Delta rewrites only affected Parquet files, enabling snapshot isolation for concurrent reads during write operations.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">⏰</div>
+              <div>Deep study: <strong>Time Travel</strong> using AS OF VERSION and AS OF TIMESTAMP. Practice design scenarios where time travel enables SCD Type 2 compliance and audit trail reconstruction.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">🔄</div>
+              <div>Formulate explanations on <strong>idempotent writes in Spark Structured Streaming</strong> — micro-batch checkpointing, MERGE INTO patterns, and exactly-once delivery guarantees using Delta's transaction log.</div>
+            </div>
+            <div class="week-deliverable">
+              <strong>Week 3 Deliverable:</strong> Can whiteboard the full ACID transaction lifecycle for a MERGE INTO operation, from commit initiation to _delta_log entry.
+            </div>
+          </div>
+        </div>
+
+        <div class="week-card week-4">
+          <div class="week-header">
+            <div class="week-badge">Week 4</div>
+            <div class="week-title">FinOps, Cluster Sizing & Execution Mechanics</div>
+            <div class="week-days">Days 22–30</div>
+          </div>
+          <div class="week-body">
+            <div class="focus-area">
+              <div class="focus-icon">🖥️</div>
+              <div>Differentiate <strong>Driver vs Worker nodes</strong>: Driver maintains SparkContext and translates code to logical plan. Workers execute tasks in parallel. Know when bottlenecks occur at each level.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">🧮</div>
+              <div>Know when to provision <strong>memory-optimized vs compute-optimized clusters</strong>: joins and aggregations → memory-optimized; CPU-intensive transformations → compute-optimized. Match workload profiles to cluster types.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">📈</div>
+              <div>Study <strong>Auto-scaling and Spot instances</strong> for ephemeral batch jobs. Understand the DBU cost implications, preemption risk, and when to use reserved vs spot capacity.</div>
+            </div>
+            <div class="focus-area">
+              <div class="focus-icon">💰</div>
+              <div>Master <strong>Databricks Unit (DBU) consumption governance</strong>: cluster policies, max DBU caps, job cluster vs all-purpose cluster economics, and photon engine cost-benefit trade-offs.</div>
+            </div>
+            <div class="week-deliverable">
+              <strong>Week 4 Deliverable:</strong> Can design a fully costed cluster architecture for a 5TB daily batch pipeline, justifying every resource allocation decision with DBU and cost estimates.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════ INTERVIEW PREP PANEL -->
+    <section id="panel-interview" role="tabpanel" aria-labelledby="tab-interview" class="tab-panel" hidden>
+      <div class="panel-header">
+        <h1>Interview Scenario Blueprints</h1>
+        <p class="panel-sub">Three high-stakes system design scenarios with complete model answers. Practice until these flow naturally in conversation.</p>
+      </div>
+
+      <div class="scenario-list">
+
+        <details class="scenario-card" open>
+          <summary class="scenario-summary">
+            <div class="scenario-num">Scenario 1</div>
+            <div class="scenario-title-wrap">
+              <div class="scenario-title">Fabric Migration & DirectQuery Fallback Crisis</div>
+              <div class="scenario-context">Most common at: Microsoft IDC, LTIMindtree, Tech Mahindra, Cognizant</div>
+            </div>
+            <div class="scenario-chevron">▼</div>
+          </summary>
+          <div class="scenario-body">
+            <div class="interview-q">
+              <span class="q-label">Q</span>
+              <div>"We are migrating our enterprise semantic models to Microsoft Fabric using an F64 capacity. Beta testing shows some filtered queries are taking 45 seconds, and capacity metrics show massive compute spikes. As the architect, how do you diagnose and resolve this?"</div>
+            </div>
+            <div class="interview-a">
+              <span class="a-label">A</span>
+              <div class="answer-text">
+                <p><strong>Immediate Diagnosis:</strong> This is a classic symptom of Direct Lake failing to load data into the Analysis Services memory, resulting in a <em>DirectQuery Fallback</em>.</p>
+                <div class="answer-key-facts">
+                  <div class="fact-chip">F64 = 25 GB max memory</div>
+                  <div class="fact-chip">F64 = 1.5B row limit/table</div>
+                  <div class="fact-chip">Fallback → SQL Analytics Endpoint</div>
+                  <div class="fact-chip">MPP ≠ real-time BI queries</div>
+                </div>
+                <p><strong>Root Cause Explanation:</strong> When the DAX query requires data exceeding the 25 GB threshold, the system attempts to page data in and out of OneLake. If paging fails and fallback is enabled, the query is offloaded to the Fabric SQL Analytics Endpoint. This MPP engine is optimized for batch processing, not instantaneous BI slice-and-dice operations — hence the 45-second latency and compute spikes.</p>
+                <p><strong>Architectural Fix — 4 Actions:</strong></p>
+                <ol>
+                  <li>Inspect Delta Parquet files for optimal compression. Apply OPTIMIZE + ZORDER on high-filter columns.</li>
+                  <li>Remove high-cardinality columns (unique transaction IDs, GUIDs) from the semantic model entirely — they exist in Delta but should not be modeled in the BI layer.</li>
+                  <li>Enforce strict partitioning strategies to collocate frequently queried data. Compact small files regularly to minimize memory footprint.</li>
+                  <li>Temporarily <strong>disable DirectQuery fallback</strong> at the dataset level during testing — this forces explicit failures, precisely identifying which queries break the 25 GB guardrail.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <details class="scenario-card">
+          <summary class="scenario-summary">
+            <div class="scenario-num">Scenario 2</div>
+            <div class="scenario-title-wrap">
+              <div class="scenario-title">Databricks vs Fabric — Zero-Copy Data Movement</div>
+              <div class="scenario-context">Most common at: JPMorgan Chase, Walmart, HSBC, UBS India</div>
+            </div>
+            <div class="scenario-chevron">▼</div>
+          </summary>
+          <div class="scenario-body">
+            <div class="interview-q">
+              <span class="q-label">Q</span>
+              <div>"We have petabytes of legacy data being continuously transformed by mature Databricks pipelines residing in ADLS Gen2. The business wants Power BI in Microsoft Fabric for reporting. How do you design the integration without rewriting our Databricks pipelines or duplicating data?"</div>
+            </div>
+            <div class="interview-a">
+              <span class="a-label">A</span>
+              <div class="answer-text">
+                <p><strong>Core Principle — Zero Data Movement:</strong> Rewriting mature Databricks pipelines is financially irresponsible, introduces massive operational risk, and degrades historical data fidelity. We use <em>Microsoft Fabric OneLake Shortcuts</em>.</p>
+                <div class="answer-key-facts">
+                  <div class="fact-chip">OneLake Shortcuts = logical links</div>
+                  <div class="fact-chip">Zero bytes moved</div>
+                  <div class="fact-chip">SPN + ABFS endpoint</div>
+                  <div class="fact-chip">Key Vault Secret Scope</div>
+                </div>
+                <p><strong>Precise Security Implementation:</strong></p>
+                <ol>
+                  <li>Register an <strong>Azure Service Principal (SPN)</strong> and assign it the <em>Storage Blob Data Contributor</em> role on the underlying ADLS Gen2 storage accounts.</li>
+                  <li>Within Databricks, configure <strong>Azure Key Vault via Secret Scopes</strong> to handle OAuth credentials securely — never hardcode credentials in notebooks.</li>
+                  <li>Create <strong>OneLake Shortcuts</strong> in Fabric pointing to the ADLS Gen2 ABFS endpoints. Fabric reads these Delta tables as if they were natively in OneLake — no data movement.</li>
+                  <li>Databricks continues processing using its optimized <strong>Photon engine</strong>. Fabric consumes the same Delta tables via Direct Lake for BI reporting. Two compute engines. One data copy.</li>
+                </ol>
+                <p><strong>Business Value Statement:</strong> This architecture eliminates storage duplication costs, preserves the $X million investment in mature Databricks pipelines, and delivers real-time Power BI reporting within 2 weeks — not 6 months of pipeline rewrites.</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <details class="scenario-card">
+          <summary class="scenario-summary">
+            <div class="scenario-num">Scenario 3</div>
+            <div class="scenario-title-wrap">
+              <div class="scenario-title">Delta Lake Performance Degradation — Z-Ordering to Liquid Clustering</div>
+              <div class="scenario-context">Most common at: Novartis, AstraZeneca, Walmart, Optum</div>
+            </div>
+            <div class="scenario-chevron">▼</div>
+          </summary>
+          <div class="scenario-body">
+            <div class="interview-q">
+              <span class="q-label">Q</span>
+              <div>"Our Spark jobs update a multi-terabyte Delta table daily. We use OPTIMIZE with Z-ordering for query speed, but the optimization job itself now takes 6 hours and costs a fortune. How do you re-architect this?"</div>
+            </div>
+            <div class="interview-a">
+              <span class="a-label">A</span>
+              <div class="answer-text">
+                <p><strong>Root Cause — Mathematical Flaw in Z-Ordering:</strong> Z-ordering uses multidimensional Z-curves to map multi-dimensional data into one dimension. Its fundamental flaw is that it requires a <strong>complete rewrite of the entire table's Z-cube structure</strong> every time OPTIMIZE runs — regardless of how little new data was added.</p>
+                <div class="answer-key-facts">
+                  <div class="fact-chip">Z-curves → full table rewrite</div>
+                  <div class="fact-chip">Hilbert curves → incremental only</div>
+                  <div class="fact-chip">Liquid → seals stable Z-cubes</div>
+                  <div class="fact-chip">Cannot mix Z-order + Liquid</div>
+                </div>
+                <p><strong>The Modern Standard — Liquid Clustering:</strong></p>
+                <ol>
+                  <li>Liquid Clustering uses <strong>Hilbert curves</strong> instead of Z-curves. Hilbert curves maintain a tighter bounding box around clustered data, preserving strict distance between adjacent points — superior data skipping.</li>
+                  <li>It is fundamentally <strong>incremental</strong>: it only clusters new data into unstable Z-cubes until they reach a target size limit. Previously sealed (stable) Z-cubes are completely untouched during future optimization runs.</li>
+                  <li>It handles <strong>data skew dynamically</strong> and allows concurrent read/write operations without table locks.</li>
+                </ol>
+                <p><strong>Business Impact Statement:</strong> Transitioning from Z-ordering to Liquid Clustering eliminates rewriting terabytes of static historical data daily. The 6-hour OPTIMIZE job becomes a sub-45-minute incremental operation. DBU consumption drops dramatically. Query performance improves due to tighter data locality. This single architectural change can save $15,000–$40,000/month in compute costs for a multi-terabyte production table.</p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+      </div>
+
+      <!-- Bonus Q&A -->
+      <div class="bonus-qa">
+        <h2>Additional Common Questions</h2>
+        <div class="qa-grid">
+          <div class="qa-item">
+            <div class="qa-q">What is the difference between Managed and External tables in Unity Catalog?</div>
+            <div class="qa-a">Managed tables: Delta owns both metadata and data in UC's root storage bucket. Dropping the table deletes the data. External tables: UC owns only metadata; data lives in your ADLS Gen2. Dropping the table leaves the data intact. Use External for shared datasets consumed by multiple compute engines.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-q">How do you handle schema evolution in a production Delta pipeline without breaking downstream consumers?</div>
+            <div class="qa-a">Enable schema evolution with mergeSchema option, but enforce schema contracts via CI/CD pipeline validation gates. Use Azure DevOps YAML to run schema diff checks before merging PRs. For breaking changes (column removal, type change), version the table and use Delta time travel to allow downstream consumers a migration window.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-q">Explain OneLake's role in Microsoft Fabric's architecture.</div>
+            <div class="qa-a">OneLake is Fabric's single unified data lake — one tenant, one storage layer, built on Azure Data Lake Storage Gen2. Every Fabric workspace gets a dedicated portion. All Fabric workloads (Lakehouse, Warehouse, Real-Time Intelligence) read/write to OneLake natively. Shortcuts allow external data in ADLS Gen2, AWS S3, or GCS to appear in OneLake without data movement.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-q">How do you implement Row-Level Security in Microsoft Fabric?</div>
+            <div class="qa-a">In Power BI / Fabric semantic models, define RLS roles using DAX filter expressions in the Model view. Assign Azure AD users or groups to roles. For warehouse-level security, use SQL GRANT/DENY with column-level permissions. For Lakehouse, enforce access control via OneLake ACLs backed by Entra ID. Always test with the "View as" feature before production deployment.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════ ATS KEYWORDS PANEL -->
+    <section id="panel-ats" role="tabpanel" aria-labelledby="tab-ats" class="tab-panel" hidden>
+      <div class="panel-header">
+        <h1>Elite ATS Keyword Arsenal</h1>
+        <p class="panel-sub">Every keyword below has been mapped to a specific ATS algorithmic signal. Click any chip to copy it. Use the copy-all button for each category.</p>
+      </div>
+
+      <div class="ats-categories" id="ats-categories">
+        <!-- Injected by JS -->
+      </div>
+
+      <div class="ats-checker">
+        <h2>Resume ATS Density Checker</h2>
+        <p>Paste your resume text below and see which high-value keywords are present vs missing.</p>
+        <textarea id="ats-input" class="ats-textarea" placeholder="Paste your resume text here..."></textarea>
+        <button class="btn-primary" onclick="checkATS()">Analyze ATS Coverage</button>
+        <div id="ats-results" class="ats-results" hidden></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── TOAST NOTIFICATION ─────────────────────────────────────── -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ── BACK TO TOP ───────────────────────────────────────────── -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top" title="Go to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <!-- ── PRINT FRAME ────────────────────────────────────────────── -->
+  <div id="print-frame" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
