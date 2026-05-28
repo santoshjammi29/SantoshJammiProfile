@@ -33,41 +33,49 @@ Strategic Lead Data Engineer with **8+ years of experience** and a proven **5-ye
 
 ## 💼 Professional Experience
 
-### Lead Technical Consultant / Data Architect
-**PricewaterhouseCoopers (PwC)** | *January 2022 – Present*
-* **Architecture Leadership**: Acted as the primary architect and advisor for high-visibility data platforms, bridging technical engineering with executive business requirements. Led a team of 8+ engineers in implementing enterprise-grade data platforms on Microsoft Azure and Microsoft Fabric.
-* **Lakehouse Migration & Design**: Engineered and deployed multi-tenant Azure Databricks Lakehouse architectures using Delta Lake. Optimized storage layouts with Z-Ordering and Liquid Clustering, reducing query response times by 35% across BFSI reporting datasets.
-* **Data Mesh & Governance**: Designed a decentralized Data Mesh architecture utilizing Databricks Unity Catalog for unified cataloging, role-based access control (RBAC), and Row-Level Security (RLS) policies, satisfying strict GDPR audits for EU banking clients.
+### Senior Data Engineer
+**Tata Consultancy Services — EU BFSI / Enterprise** | *April 2022 – Present*
+* **Onsite Leadership**: Served as primary technical point of contact for onsite Product Owners and Architects, facilitating requirement discovery, managing offshore delivery of 5+ engineers, and ensuring zero schedule slippage across all sprint deliverables.
+* **Lakehouse and Idempotency**: Designed a robust Medallion Architecture (Bronze / Silver / Gold) managing 5TB+ data. Implemented idempotent ETL patterns with strict integrity constraints (MERGE INTO / ACID Delta Lake) to ensure 100% data consistency across all pipeline retries and transient cluster failures.
+* **Cloud FinOps**: Led compute optimization — dynamically tuning DIUs and Parallelism in Azure Data Factory and resolving Integration Runtime bottlenecks — delivering a 40% reduction in data processing latency and significant cloud cost savings across enterprise pipelines.
+* **Fabric and Power BI**: Architected resilient Microsoft Fabric semantic models using Direct Lake mode, carefully managing F64 capacity memory guardrails (25 GB) to entirely eliminate refresh failures and ensure high availability for C-level dashboards, preventing DirectQuery fallback latency.
+* **DevOps and Schema Evolution**: Automated CI/CD via Azure DevOps / YAML with automated rollback strategies; enforced strict Schema Evolution policies to maintain 100% downstream platform stability across 5+ concurrent engineering squads.
 
 ### Senior Data Engineer
-**LTIMindtree** | *March 2020 – January 2022*
-* **Data Pipeline Engineering**: Built high-volume data ingestion pipelines using Azure Data Factory and Spark SQL, processing over 10TB of daily transaction records. Reduced ingestion window duration by 40% using advanced parallelism configurations.
-* **FinOps Governance**: Spearheaded a Cloud FinOps taskforce that analyzed Azure Synapse and Databricks compute spend. Implemented autoscale cluster policies and Spot instance allocation, cutting monthly cloud infrastructure bills by 22%.
-* **Enterprise Reporting**: Modeled performant star-schema databases in Azure SQL and Synapse Dedicated SQL Pools. Authored optimized DAX models for Power BI executives to track financial SLAs in real-time.
+**Larsen & Toubro Infotech (LTIMindtree) — Enterprise Data** | *April 2021 – April 2022*
+* **ETL Performance**: Re-engineered legacy pipelines using Azure Data Factory, solving the Small File Problem and cutting query execution times by 40% through parallelism tuning, partition optimization, and Integration Runtime right-sizing.
+* **Reporting**: Redesigned Power BI models with aggregation tables, improving report load speeds by 25% and achieving high availability across all executive and operational reporting workloads.
 
-### Data Engineer
-**Tech Mahindra** | *August 2017 – March 2020*
-* **ETL Development**: Designed and maintained ETL/ELT pipelines using PySpark and SQL. Integrated diverse APIs, relational databases, and flat-file sources into centralized data lakes.
-* **Performance Tuning**: Monitored and debugged Spark jobs to resolve skewness, data serialization overhead, and shuffle bottlenecks, improving cluster utilization efficiency by 15%.
+### Technology Analyst → Senior System Engineer → System Engineer
+**Infosys Limited — Enterprise Technology** | *December 2017 – April 2021*
+* **Data Quality**: Improved data model accuracy by 20% through automated data cleansing and validation frameworks, establishing consistent data quality standards across enterprise financial reporting pipelines.
+* **Security**: Integrated Power BI with SaaS applications, implementing Row-Level Security (RLS) for sensitive financial data and designing role-based access controls governing the end-to-end lifecycle from data modeling to dashboard deployment.
+* **Performance**: Increased data processing efficiency by 15% through advanced T-SQL query tuning, index optimization, and stored procedure refactoring across large-scale SQL Server and Azure SQL workloads.
+* **Platform**: Collaborated with cross-functional teams to develop high-impact data products utilizing SQL Server and Azure services for efficient large-scale processing, supporting business intelligence initiatives across multiple domains.
 
 ---
 
 ## 🏗️ Key Projects & Architectural Highlights
 
-### ⚡ Real-Time Lakehouse Ingestion (PwC)
-* **Goal**: Enable near-real-time compliance reporting for an EU BFSI client.
-* **Architecture**: Set up an event-driven framework using Azure Event Hubs and Spark Structured Streaming, writing into Delta Lake tables.
-* **Impact**: Decreased data latency from 24 hours (batch) to under 5 minutes, ensuring 99.9% uptime and immediate compliance audit validation.
+### ⚡ 5TB Medallion Lakehouse — EU Enterprise (TCS)
+* **Goal**: Design a scalable Bronze-Silver-Gold Medallion architecture managing 5TB+ data for EU BFSI clients at TCS.
+* **Architecture**: Integrated ADLS Gen2, Azure Data Factory, and Delta Lake. Implemented idempotent MERGE INTO patterns to guarantee 100% data consistency.
+* **Impact**: Achieved 99.9% platform reliability and full GDPR data sovereignty compliance.
 
-### 📊 Fabric Analytics Hub & Semantic Layer (PwC)
-* **Goal**: Modernize legacy reporting and eliminate data duplication.
-* **Architecture**: Deployed a centralized Microsoft Fabric Lakehouse. Utilized OneLake Shortcuts to connect to external Azure storages and modeled a Direct Lake dataset in Power BI.
-* **Impact**: Bypassed import/refresh delays, enabling instant cross-department executive reporting with zero storage duplication.
+### 📊 Microsoft Fabric Semantic Model — C-Level Dashboards
+* **Goal**: Modernize executive reporting and eliminate data refresh failures.
+* **Architecture**: Modelled Direct Lake datasets in Microsoft Fabric, leveraging OneLake Shortcuts.
+* **Impact**: Controlled F64 capacity guardrails (25 GB memory limit) to eliminate all refresh failures, bypassing import latency for high-availability reporting.
 
-### ⚙️ High-Volume Batch Optimization (LTIMindtree)
-* **Goal**: Resolve daily SLA breaches for a global retail client.
-* **Architecture**: Redesigned legacy SQL transformations into modular, optimized PySpark jobs using delta transaction tables.
-* **Impact**: Shortened the main batch run from 7 hours to 3.5 hours, comfortably meeting daily SLA agreements.
+### ⚙️ ADF Pipeline Re-engineering — Small File Elimination (LTI)
+* **Goal**: Eliminate performance bottlenecks in high-volume batch data pipelines.
+* **Architecture**: Re-engineered legacy ETL pipelines in Azure Data Factory to solve the Small File Problem. Redesigned Power BI datasets with aggregation tables.
+* **Impact**: Cut query execution times by 40% and improved report load speeds by 25% across all operational workloads.
+
+### 💡 FinOps & Compute Optimization — DIU Tuning (TCS)
+* **Goal**: Reduce monthly cloud infrastructure expenses for batch pipelines.
+* **Architecture**: Dynamically optimized DIU allocation and cluster parallelism in ADF, resolved Integration Runtime bottlenecks, and automated deployments with Azure DevOps YAML.
+* **Impact**: Reduced data processing latency by 40% while delivering significant monthly cloud cost savings.
 
 ---
 
