@@ -12,11 +12,11 @@ if (!fs.existsSync(destDir)) {
 const htmlContent = fs.readFileSync(path.join(srcDir, 'index.html'), 'utf8');
 const lines = htmlContent.split('\n');
 
-// 2. Extract Head & Header (lines 1 to 55)
-const headHeader = lines.slice(0, 55).join('\n');
+// 2. Extract Head & Header (lines 1 to 59)
+const headHeader = lines.slice(0, 59).join('\n');
 
-// 3. Extract Resume Section (lines 87 to 456)
-const resumeSection = lines.slice(86, 456).join('\n');
+// 3. Extract Resume Section (lines 91 to 460)
+const resumeSection = lines.slice(90, 460).join('\n');
 
 // 4. Construct standalone HTML
 const standaloneHtml = `
