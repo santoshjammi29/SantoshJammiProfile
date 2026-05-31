@@ -12,11 +12,42 @@ if (!fs.existsSync(destDir)) {
 const htmlContent = fs.readFileSync(path.join(srcDir, 'index.html'), 'utf8');
 const lines = htmlContent.split('\n');
 
-// 2. Extract Head & Header (lines 1 to 59)
-const headHeader = lines.slice(0, 59).join('\n');
+// 2. Extract Head & Header dynamically
+let headerEndIndex = -1;
+for (let i = 0; i < lines.length; i++) {
+  if (lines[i].includes('</header>')) {
+    headerEndIndex = i;
+    break;
+  }
+}
+if (headerEndIndex === -1) {
+  console.error("❌ Error: Could not find </header> tag in index.html");
+  process.exit(1);
+}
+const headHeader = lines.slice(0, headerEndIndex + 1).join('\n');
 
-// 3. Extract Resume Section (lines 91 to 460)
-const resumeSection = lines.slice(90, 460).join('\n');
+// 3. Extract Resume Section dynamically
+let resumeStartIndex = -1;
+let resumeEndIndex = -1;
+for (let i = 0; i < lines.length; i++) {
+  if (lines[i].includes('id="panel-resume"')) {
+    resumeStartIndex = i;
+  }
+  if (lines[i].includes('id="panel-linkedin"')) {
+    for (let j = i - 1; j >= 0; j--) {
+      if (lines[j].trim() === '</section>') {
+        resumeEndIndex = j;
+        break;
+      }
+    }
+    break;
+  }
+}
+if (resumeStartIndex === -1 || resumeEndIndex === -1) {
+  console.error(`❌ Error: Could not locate resume section boundaries in index.html (start: ${resumeStartIndex}, end: ${resumeEndIndex})`);
+  process.exit(1);
+}
+const resumeSection = lines.slice(resumeStartIndex, resumeEndIndex + 1).join('\n');
 
 // 4. Construct standalone HTML
 const standaloneHtml = `

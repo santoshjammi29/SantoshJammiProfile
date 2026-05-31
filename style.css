@@ -257,9 +257,12 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
 .logo-sub { font-size: 0.72rem; color: var(--text-muted); }
 .header-badges { display: flex; gap: 8px; flex-wrap: wrap; }
 .badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 0.7rem;
   font-weight: 600;
-  padding: 3px 10px;
+  padding: 4px 12px;
   border-radius: 100px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -267,6 +270,14 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
 .badge-fabric { background: rgba(0,120,212,0.2); color: #60a5fa; border: 1px solid rgba(0,120,212,0.35); }
 .badge-azure  { background: rgba(99,102,241,0.2); color: var(--indigo-light); border: 1px solid rgba(99,102,241,0.35); }
 .badge-gcc    { background: rgba(16,185,129,0.15); color: #34d399; border: 1px solid rgba(16,185,129,0.3); }
+
+.inline-badge-icon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
 
 .header-actions {
   display: flex;
@@ -369,7 +380,23 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   color: #4f46e5;
   box-shadow: 0 2px 12px rgba(79, 70, 229, 0.05);
 }
-.tab-icon { font-size: 1em; }
+.tab-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
+.tab-icon svg {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2.2;
+  transition: transform 0.2s ease;
+}
+.tab-btn:hover .tab-icon svg {
+  transform: scale(1.15);
+}
 
 /* ── MAIN ────────────────────────────────────────────────────── */
 .main-content {
@@ -626,9 +653,12 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
 .resume-contacts span { display: flex; align-items: center; gap: 4px; }
 .cert-strip { display: flex; gap: 8px; flex-wrap: wrap; }
 .cert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 0.72rem;
   font-weight: 700;
-  padding: 3px 10px;
+  padding: 4px 12px;
   border-radius: 100px;
   background: rgba(99,102,241,0.18);
   color: var(--indigo-light);
@@ -700,6 +730,12 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   padding: 5px 12px 5px 10px;
   border-radius: 100px;
   white-space: nowrap;
+  flex-shrink: 0;
+}
+.ticker-label img, .ticker-label svg {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
   flex-shrink: 0;
 }
 /* Separator dot */
@@ -1176,7 +1212,34 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
 :root[data-theme="light"] .comp-card:hover {
   box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08), 0 1px 0 rgba(255,255,255,0.8) inset;
 }
-.comp-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+.comp-card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; gap: 12px; }
+.comp-title-group { display: flex; align-items: center; gap: 12px; }
+.comp-logo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+:root[data-theme="light"] .comp-logo-wrap {
+  background: rgba(0, 0, 0, 0.02);
+}
+.comp-logo-img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.comp-logo-svg {
+  width: 18px;
+  height: 18px;
+  stroke: var(--indigo-light);
+  fill: none;
+  stroke-width: 2;
+}
 .comp-name { font-size: 0.95rem; font-weight: 700; color: var(--text-primary); }
 .comp-hub { font-size: 0.72rem; color: var(--text-muted); margin-top: 2px; }
 .comp-domain-badge {
