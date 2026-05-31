@@ -655,6 +655,44 @@ function initBackToTop() {
   });
 }
 
+
+/* ── LIGHTBOX ────────────────────────────────────────────────── */
+function initLightbox() {
+  const profileContainer = document.querySelector('.logo-icon');
+  const lightbox = document.getElementById('image-lightbox');
+  const closeBtn = document.querySelector('.lightbox-close');
+
+  if (!profileContainer || !lightbox) return;
+
+  profileContainer.addEventListener('click', (e) => {
+    e.preventDefault();
+    lightbox.classList.add('active');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden'; // Disable scroll
+  });
+
+  const closeLightbox = () => {
+    lightbox.classList.remove('active');
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = ''; // Enable scroll
+  };
+
+  if (closeBtn) closeBtn.addEventListener('click', closeLightbox);
+  
+  lightbox.addEventListener('click', (e) => {
+    // Close if background or close button clicked
+    if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+      closeLightbox();
+    }
+  });
+}
+
 /* ── INIT ────────────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
   initTabs();
@@ -665,4 +703,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initSkillsTicker();
   initThemeToggle();
   initBackToTop();
+  initLightbox();
 });
