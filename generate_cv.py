@@ -113,7 +113,7 @@ contact_p = doc.add_paragraph()
 contact_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 contact_p.paragraph_format.space_after = Pt(4)
 contact_r = contact_p.add_run(
-    'Hyderabad, India  ·  santu.jammi@gmail.com  ·  +91-9110580037  ·  linkedin.com/in/santoshjammi29'
+    'Hyderabad, India  ·  santu.jammi@gmail.com  ·  +91-9110580037  ·  linkedin.com/in/santoshjammi29  ·  github.com/santoshjammi29'
 )
 contact_r.font.size = Pt(9)
 contact_r.font.color.rgb = MID
