@@ -201,6 +201,20 @@ const DOMAIN_CLASSES = {
   retail: 'dom-retail', consult: 'dom-consult'
 };
 
+function getCompanyIcon(c) {
+  if (c.name.toLowerCase().includes("microsoft")) {
+    return `<div class="comp-logo-wrap"><img src="images/icons/microsoft.svg" class="comp-logo-img" alt="Microsoft" /></div>`;
+  }
+  const icons = {
+    tech: `<svg class="comp-logo-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>`,
+    bfsi: `<svg class="comp-logo-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>`,
+    health: `<svg class="comp-logo-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>`,
+    retail: `<svg class="comp-logo-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>`,
+    consult: `<svg class="comp-logo-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`
+  };
+  return `<div class="comp-logo-wrap">${icons[c.domain] || icons.tech}</div>`;
+}
+
 function buildCompanyCards(filter = 'all') {
   const grid = document.getElementById('comp-grid');
   if (!grid) return;
@@ -208,9 +222,12 @@ function buildCompanyCards(filter = 'all') {
   grid.innerHTML = filtered.map(c => `
     <div class="comp-card" data-domain="${c.domain}">
       <div class="comp-card-top">
-        <div>
-          <div class="comp-name">${c.name}</div>
-          <div class="comp-hub">📍 ${c.hub}</div>
+        <div class="comp-title-group">
+          ${getCompanyIcon(c)}
+          <div>
+            <div class="comp-name">${c.name}</div>
+            <div class="comp-hub">📍 ${c.hub}</div>
+          </div>
         </div>
         <span class="comp-domain-badge ${DOMAIN_CLASSES[c.domain] || ''}">${c.domainLabel}</span>
       </div>
