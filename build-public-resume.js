@@ -64,3 +64,12 @@ if (fs.existsSync(pdfPath)) {
 } else {
   console.log('⚠️ resume.pdf not found in root. Please place your exported resume.pdf in the root to package it.');
 }
+
+// 9. Copy Word CV (.docx) if it exists in root
+const docxPath = path.join(srcDir, 'Santosh_Jammi_CV.docx');
+if (fs.existsSync(docxPath)) {
+  fs.copyFileSync(docxPath, path.join(destDir, 'Santosh_Jammi_CV.docx'));
+  console.log('✅ Copied Santosh_Jammi_CV.docx to public-resume/');
+} else {
+  console.log('⚠️ Santosh_Jammi_CV.docx not found in root. Run generate_cv.py first.');
+}

@@ -450,6 +450,33 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   transition: var(--transition);
 }
 .btn-ghost:hover { background: var(--bg-card-hover); color: var(--text-primary); border-color: var(--border-glow); }
+.btn-secondary {
+  padding: 10px 22px;
+  background: rgba(5, 150, 105, 0.1);
+  color: var(--emerald);
+  border: 1px solid rgba(5, 150, 105, 0.35);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: var(--transition);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn-secondary:hover {
+  background: rgba(5, 150, 105, 0.18);
+  border-color: var(--emerald);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(5, 150, 105, 0.25);
+}
+:root[data-theme="light"] .btn-secondary {
+  background: rgba(5, 150, 105, 0.08);
+  color: #065f46;
+  border-color: rgba(5, 150, 105, 0.3);
+}
 
 /* ── RESUME SPLIT-PANE WORKSPACE ───────────────────────────────── */
 .resume-workspace {
@@ -2031,5 +2058,61 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
     right: 16px;
     width: 40px;
     height: 40px;
+  }
+}
+
+/* ── FLOATING DOWNLOAD CV FAB ────────────────────────────────── */
+.download-cv-fab {
+  position: fixed;
+  bottom: 82px;        /* sits just above the back-to-top btn */
+  right: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 18px 11px 14px;
+  border-radius: 28px;
+  background: linear-gradient(135deg, rgba(5,150,105,0.18) 0%, rgba(5,150,105,0.08) 100%);
+  border: 1px solid rgba(5, 150, 105, 0.35);
+  color: var(--emerald);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 99;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 4px 20px rgba(5, 150, 105, 0.15), var(--shadow-card);
+  transition: background 0.25s, border-color 0.25s, transform 0.25s cubic-bezier(0.4,0,0.2,1), box-shadow 0.25s;
+  white-space: nowrap;
+}
+.download-cv-fab:hover {
+  background: linear-gradient(135deg, rgba(5,150,105,0.28) 0%, rgba(5,150,105,0.14) 100%);
+  border-color: var(--emerald);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(5, 150, 105, 0.28), var(--shadow-card);
+}
+.download-cv-fab:active {
+  transform: translateY(0);
+}
+.download-cv-fab span {
+  line-height: 1;
+}
+:root[data-theme="light"] .download-cv-fab {
+  background: linear-gradient(135deg, rgba(5,150,105,0.10) 0%, rgba(5,150,105,0.05) 100%);
+  color: #065f46;
+  border-color: rgba(5, 150, 105, 0.3);
+  box-shadow: 0 4px 16px rgba(5, 150, 105, 0.12), 0 1px 0 rgba(255,255,255,0.8) inset;
+}
+@media print {
+  .download-cv-fab { display: none !important; }
+}
+@media (max-width: 767px) {
+  .download-cv-fab {
+    bottom: 72px;
+    right: 12px;
+    padding: 9px 14px 9px 11px;
+    font-size: 0.75rem;
   }
 }
