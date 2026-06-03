@@ -1629,6 +1629,49 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
 }
 .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
 
+/* ── SITE FOOTER ────────────────────────────────────────────── */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 48px 24px;
+  background: var(--bg-surface);
+  text-align: center;
+  margin-top: 48px;
+  position: relative;
+  z-index: 10;
+}
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer-row {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+.footer-built-by {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.footer-built-by strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+.footer-row span.separator {
+  color: var(--indigo-light);
+  margin: 0 10px;
+  opacity: 0.8;
+  font-size: 0.85rem;
+  user-select: none;
+}
+:root[data-theme="light"] .site-footer {
+  background: rgba(241, 245, 249, 0.5);
+}
+
 /* ── PRINT STYLES ────────────────────────────────────────────── */
 @media print {
   /* Force light theme colors & high density on print/export */
@@ -1647,10 +1690,10 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
     padding: 0 !important;
   }
 
-  /* Hide headers, tabs, actions, and tickers */
+  /* Hide headers, tabs, actions, tickers, and footer */
   .site-header, .tab-nav, .panel-header, .action-bar, .copy-hint, .copy-overlay,
   .ticker-outer, .ticker-controls, .ticker-drag-hint, .skills-ticker-wrap, .resume-nav, .toast,
-  .resume-right, .pdf-mobile-fallback {
+  .resume-right, .pdf-mobile-fallback, .site-footer {
     display: none !important;
   }
 
@@ -1888,8 +1931,8 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .logo-sub { display: none; }
   .logo-icon { width: 28px; height: 28px; border-width: 1.5px; }
 
-  .tab-nav { padding: 4px; gap: 2px; top: 54px; margin: 12px auto; max-width: 92%; }
-  .tab-btn { padding: 6px 10px; font-size: 0.72rem; }
+  .tab-nav { padding: 4px; gap: 2px; top: 0 !important; margin: 12px auto; max-width: 95%; flex-wrap: nowrap; overflow-x: auto; }
+  .tab-btn { padding: 6px 10px; font-size: 0.72rem; flex-shrink: 0; }
   .tab-icon { display: none; }
 
   .main-content { padding: 14px 10px 60px; }
@@ -1899,15 +1942,15 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .resume-doc { padding: 16px 12px; border-radius: var(--radius-lg); }
   .resume-name { font-size: 1.25rem; }
   .resume-title-line { font-size: 0.78rem; }
-  .resume-contacts { gap: 6px; font-size: 0.72rem; flex-direction: column; }
+  .resume-contacts { gap: 6px 10px; font-size: 0.72rem; justify-content: center; flex-wrap: wrap; }
   .cert-strip { gap: 4px; }
   .cert-badge { font-size: 0.62rem; padding: 2px 7px; }
 
-  .job-header { flex-direction: column; gap: 8px; }
-  .job-meta { text-align: left; }
+  .job-header { flex-direction: column; gap: 6px; }
+  .job-meta { text-align: left; white-space: normal; }
   .job-title { font-size: 0.85rem; }
-  .job-bullets li { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; font-size: 0.78rem; }
-  .bullet-tag { width: auto; align-self: flex-start; margin-top: 0; font-size: 0.58rem; padding: 1px 5px; }
+  .job-para { font-size: 0.78rem; line-height: 1.5; }
+  .para-tag { font-size: 0.54rem; padding: 1px 4px; margin-right: 4px; border-radius: 3px; }
 
   .ticker-chip { font-size: 0.7rem; padding: 4px 10px; }
   .ticker-label { font-size: 0.58rem; padding: 4px 8px; }
@@ -1930,8 +1973,8 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .header-badges { display: none; }
   .logo-sub { display: none; }
 
-  .tab-nav { top: 58px; padding: 4px; margin: 14px auto; max-width: 92%; }
-  .tab-btn { padding: 7px 12px; font-size: 0.76rem; }
+  .tab-nav { top: 0 !important; padding: 4px; margin: 14px auto; max-width: 95%; flex-wrap: nowrap; overflow-x: auto; }
+  .tab-btn { padding: 7px 12px; font-size: 0.76rem; flex-shrink: 0; }
 
   .main-content { padding: 18px 14px 64px; }
   .panel-header h1 { font-size: 1.4rem; }
@@ -1939,12 +1982,15 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .resume-doc { padding: 20px 16px; }
   .resume-name { font-size: 1.4rem; }
   .resume-title-line { font-size: 0.82rem; }
-  .resume-contacts { flex-direction: column; gap: 5px; font-size: 0.76rem; }
+  .resume-contacts { gap: 6px 12px; font-size: 0.76rem; justify-content: center; flex-wrap: wrap; }
 
-  .job-header { flex-direction: column; gap: 8px; }
-  .job-meta { text-align: left; }
-  .job-bullets li { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; font-size: 0.8rem; }
-  .bullet-tag { width: auto; align-self: flex-start; margin-top: 0; }
+  .job-header { flex-direction: column; gap: 6px; }
+  .job-meta { text-align: left; white-space: normal; }
+  .job-para { font-size: 0.8rem; line-height: 1.5; }
+  .para-tag { font-size: 0.56rem; padding: 1px 4px; margin-right: 4px; border-radius: 3px; }
+
+  .ticker-chip { font-size: 0.7rem; padding: 4px 10px; }
+  .ticker-label { font-size: 0.58rem; padding: 4px 8px; }
 
   .projects-grid { grid-template-columns: 1fr; }
   .comp-grid { grid-template-columns: 1fr; }
@@ -1968,20 +2014,23 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .header-badges { gap: 5px; }
   .logo-sub { display: none; }
 
-  .tab-nav { top: 60px; padding: 5px; margin: 16px auto; max-width: 94%; }
-  .tab-btn { padding: 7px 14px; font-size: 0.8rem; }
+  .tab-nav { top: 0 !important; padding: 5px; margin: 16px auto; max-width: 95%; flex-wrap: nowrap; overflow-x: auto; }
+  .tab-btn { padding: 7px 14px; font-size: 0.8rem; flex-shrink: 0; }
 
   .main-content { padding: 24px 18px 72px; }
   .panel-header h1 { font-size: 1.6rem; }
 
   .resume-doc { padding: 28px 20px; }
   .resume-name { font-size: 1.6rem; }
-  .resume-contacts { flex-wrap: wrap; gap: 8px; font-size: 0.78rem; }
+  .resume-contacts { flex-wrap: wrap; gap: 8px 14px; font-size: 0.78rem; justify-content: center; }
 
   .job-header { flex-direction: column; gap: 8px; }
-  .job-meta { text-align: left; }
-  .job-bullets li { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
-  .bullet-tag { width: auto; align-self: flex-start; margin-top: 0; }
+  .job-meta { text-align: left; white-space: normal; }
+  .job-para { font-size: 0.82rem; }
+  .para-tag { font-size: 0.58rem; padding: 1px 5px; margin-right: 6px; }
+
+  .ticker-chip { font-size: 0.72rem; padding: 4px 10px; }
+  .ticker-label { font-size: 0.6rem; padding: 4px 8px; }
 
   .projects-grid { grid-template-columns: 1fr; }
   .comp-grid { grid-template-columns: 1fr; }
@@ -1989,7 +2038,7 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .qa-grid { grid-template-columns: 1fr; }
   .intl-grid { grid-template-columns: repeat(2, 1fr); }
 
-  .comp-filters { flex-wrap: wrap; }
+  .comp-filters { flex-wrap: wrap; justify-content: center; gap: 6px; }
   .scenario-summary { flex-wrap: wrap; }
   .ats-cat-header { flex-wrap: wrap; gap: 8px; }
   .ats-cat-signal { max-width: 100%; text-align: left; }
@@ -2000,9 +2049,12 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .header-inner { padding: 12px 20px; }
   .main-content { padding: 28px 20px 80px; }
 
+  .tab-nav { top: 0 !important; flex-wrap: nowrap; overflow-x: auto; max-width: 95%; }
+  .tab-btn { flex-shrink: 0; }
+
   .resume-doc { padding: 32px 28px; max-width: 100%; }
   .resume-name { font-size: 1.75rem; }
-  .resume-contacts { flex-wrap: wrap; gap: 10px; }
+  .resume-contacts { flex-wrap: wrap; gap: 8px 16px; justify-content: center; }
 
   .projects-grid { grid-template-columns: repeat(2, 1fr); }
   .comp-grid { grid-template-columns: repeat(2, 1fr); }
@@ -2011,6 +2063,13 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .intl-grid { grid-template-columns: repeat(2, 1fr); }
 
   .scenario-summary { flex-wrap: wrap; }
+}
+
+/* ── Mobile Layout Fixes (Stops Header Overlaps) ─────────────── */
+@media (max-width: 1023px) {
+  .site-header {
+    position: relative !important;
+  }
 }
 
 /* ── xl: laptop (1024–1279px) ───────────────────────────────── */
