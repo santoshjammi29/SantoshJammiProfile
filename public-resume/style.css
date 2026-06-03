@@ -2346,3 +2346,213 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .lightbox { display: none !important; }
 }
 
+/* ── DYNAMIC MOBILE LAYOUT OPTIMIZATIONS (GRILL RESOLUTIONS) ────── */
+@media (max-width: 1023px) {
+  /* Site Header scrolls away naturally on mobile/tablet */
+  .site-header {
+    position: relative !important;
+    top: auto !important;
+  }
+  
+  /* Navigation Tab capsule sticky at the very top */
+  .tab-nav {
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 1500 !important;
+    margin: 8px auto 16px !important;
+    max-width: 95% !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Hide all background decorative ambient glows to optimize readability and speed */
+  .ambient-glow {
+    display: none !important;
+  }
+  
+  /* Full-bleed panels & resume document: remove outer borders, radii, and shadows */
+  .main-content {
+    padding: 12px 10px 80px !important;
+  }
+  
+  .tab-panel,
+  .resume-doc,
+  .comp-card,
+  .post-card,
+  .ats-checker,
+  .qa-card,
+  .interview-q,
+  .comp-filters {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+  
+  /* Fallback slightly cleaner surface backgrounds for readability cards */
+  .comp-card, .post-card, .ats-checker {
+    background: var(--bg-surface) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: var(--radius-lg) !important;
+    padding: 16px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* Ultra-compact sticky navigation */
+  .tab-nav {
+    padding: 4px !important;
+    border: 1px solid var(--border) !important;
+    background: var(--bg-glass) !important;
+    backdrop-filter: blur(20px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+  }
+  .tab-btn {
+    padding: 6px 12px !important;
+    font-size: 0.72rem !important;
+    flex-shrink: 0 !important;
+  }
+  .tab-icon {
+    display: none !important;
+  }
+
+  /* High-density compact typography scale for the resume */
+  .resume-doc {
+    padding: 0 !important; /* Full bleed layout */
+  }
+  .resume-name {
+    font-size: 1.25rem !important;
+    text-align: center !important;
+  }
+  .resume-title-line {
+    font-size: 0.78rem !important;
+    text-align: center !important;
+    line-height: 1.4 !important;
+    margin-bottom: 8px !important;
+  }
+  .resume-contacts {
+    font-size: 0.74rem !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 6px 12px !important;
+    margin-bottom: 12px !important;
+  }
+  
+  .cert-strip {
+    justify-content: center !important;
+    gap: 4px !important;
+  }
+  .cert-badge {
+    font-size: 0.62rem !important;
+    padding: 2px 6px !important;
+  }
+  
+  .section-heading {
+    font-size: 0.85rem !important;
+    margin-top: 16px !important;
+    margin-bottom: 8px !important;
+    padding-bottom: 2px !important;
+  }
+  
+  .resume-summary {
+    font-size: 0.78rem !important;
+    line-height: 1.45 !important;
+    margin-bottom: 12px !important;
+  }
+  
+  /* Job experience optimization */
+  .job-block {
+    margin-bottom: 16px !important;
+    padding-bottom: 12px !important;
+  }
+  .job-header {
+    flex-direction: column !important;
+    gap: 4px !important;
+    margin-bottom: 8px !important;
+  }
+  .job-title {
+    font-size: 0.82rem !important;
+  }
+  .job-company {
+    font-size: 0.76rem !important;
+  }
+  .job-meta {
+    text-align: left !important;
+    white-space: normal !important;
+  }
+  .job-location {
+    font-size: 0.7rem !important;
+    display: inline-block !important;
+    margin-right: 8px !important;
+  }
+  .job-dates {
+    font-size: 0.72rem !important;
+    display: inline-block !important;
+  }
+  .job-overview {
+    font-size: 0.78rem !important;
+    line-height: 1.45 !important;
+    padding-left: 8px !important;
+    margin-bottom: 6px !important;
+  }
+  .job-para {
+    font-size: 0.78rem !important;
+    line-height: 1.45 !important;
+    margin-bottom: 8px !important;
+  }
+  .para-tag {
+    font-size: 0.54rem !important;
+    padding: 1px 4px !important;
+    margin-right: 4px !important;
+    border-radius: 3px !important;
+  }
+
+  /* Projects & Education spacing */
+  .project-card, .edu-block {
+    margin-bottom: 12px !important;
+    padding: 12px !important;
+  }
+  .project-title, .edu-title {
+    font-size: 0.82rem !important;
+  }
+  .project-tech, .edu-school {
+    font-size: 0.72rem !important;
+  }
+  .project-desc {
+    font-size: 0.78rem !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Compacting list buttons and tables */
+  .btn-primary, .btn-ghost, .btn-secondary {
+    padding: 8px 16px !important;
+    font-size: 0.78rem !important;
+    width: 100% !important; /* Stretch actions on mobile for easy tapping */
+    justify-content: center !important;
+  }
+  .action-bar {
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+  
+  .comp-filters {
+    gap: 6px !important;
+    justify-content: center !important;
+  }
+  .filter-btn {
+    padding: 6px 12px !important;
+    font-size: 0.72rem !important;
+  }
+  
+  /* Tables horizontal overflow handling */
+  .comp-table-wrap {
+    overflow-x: auto !important;
+    width: 100% !important;
+  }
+}
+
