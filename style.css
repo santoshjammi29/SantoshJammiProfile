@@ -1631,11 +1631,12 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
 
 /* ── SITE FOOTER ────────────────────────────────────────────── */
 .site-footer {
-  border-top: 1px solid var(--border);
+  max-width: 1300px;
+  margin: 48px auto 0;
   padding: 48px 24px;
+  border-top: 1px solid var(--border);
   background: var(--bg-surface);
   text-align: center;
-  margin-top: 48px;
   position: relative;
   z-index: 10;
 }
@@ -2553,6 +2554,14 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .comp-table-wrap {
     overflow-x: auto !important;
     width: 100% !important;
+  }
+
+  /* Footer mobile layout adjustments to align with compact padding */
+  .site-footer {
+    padding: 32px 10px !important;
+    margin-top: 32px !important;
+    background: transparent !important;
+    border-top: 1px solid var(--border) !important;
   }
 }
 
