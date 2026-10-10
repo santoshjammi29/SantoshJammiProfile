@@ -113,6 +113,15 @@ const COMPANIES = [
 
 const ATS_CATEGORIES = [
   {
+    name: "GenAI & Modern AI Data Systems",
+    signal: "Signals ability to architect enterprise-grade data foundations for LLMs, RAG, and agentic workflows",
+    keywords: [
+      "GenAI Data Pipelines","RAG Architecture","Vector Search","Azure AI Search","Vector Embeddings",
+      "Semantic Caching","Microsoft Fabric Copilot","Azure OpenAI","AI Foundry","Agentic AI Workflows",
+      "Hybrid Search","Document Chunking Strategies"
+    ]
+  },
+  {
     name: "Core Architecture Frameworks",
     signal: "Signals the ability to conceptualize and structure enterprise data systems at macro level",
     keywords: [
@@ -136,9 +145,9 @@ const ATS_CATEGORIES = [
     signal: "Proves deep understanding of transactional data lakes, cluster optimization, and fault-tolerant ingestion",
     keywords: [
       "Idempotent Pipeline Design","SCD Type 2","Slowly Changing Dimensions","ACID Compliance",
-      "Delta Lake","Liquid Clustering","Z-Ordering","Spark SQL Orchestration","Copy-On-Write","CoW",
-      "MERGE INTO","Delta Transaction Log","Time Travel","OPTIMIZE","VACUUM","Parquet","Medallion Bronze Silver Gold",
-      "Structured Streaming","Photon Engine"
+      "Delta Lake","Apache Iceberg","Delta Lake UniForm","Liquid Clustering","Z-Ordering","Spark SQL Orchestration",
+      "Copy-On-Write","CoW","MERGE INTO","Delta Transaction Log","Time Travel","OPTIMIZE","VACUUM","Parquet",
+      "Medallion Bronze Silver Gold","Structured Streaming","Photon Engine","dbt Core","dbt Mesh"
     ]
   },
   {
@@ -157,8 +166,8 @@ const ATS_CATEGORIES = [
     keywords: [
       "Cloud FinOps","Row-Level Security","RLS","GDPR Compliance","Data Sovereignty","Data Lineage",
       "CI/CD Pipeline Automation","Infrastructure-as-Code","IaC","Azure DevOps","YAML Pipelines",
-      "Schema Evolution","Data Quality","HIPAA","Data Governance","Column-Level Security",
-      "Entra ID","Role-Based Access Control","RBAC","FHIR","HL7"
+      "Schema Evolution","Data Quality","Great Expectations","EU AI Act","HIPAA","Data Governance",
+      "Column-Level Security","Entra ID","Role-Based Access Control","RBAC","FHIR","HL7"
     ]
   },
   {

@@ -152,6 +152,7 @@ body {
 :root[data-theme="light"] .tag-devops     { background: rgba(225, 29, 72, 0.08); color: #9f1239; border-color: rgba(225, 29, 72, 0.2); }
 :root[data-theme="light"] .tag-governance { background: rgba(8, 145, 178, 0.08); color: #155e75; border-color: rgba(8, 145, 178, 0.2); }
 :root[data-theme="light"] .tag-spark      { background: rgba(234, 88, 12, 0.08); color: #9a3412; border-color: rgba(234, 88, 12, 0.2); }
+:root[data-theme="light"] .tag-ai         { background: rgba(168, 85, 247, 0.08); color: #7e22ce; border-color: rgba(168, 85, 247, 0.2); }
 
 :root[data-theme="light"] .dom-bfsi    { background: rgba(217, 119, 6, 0.08); color: #b45309; border-color: rgba(217, 119, 6, 0.2); }
 :root[data-theme="light"] .dom-health  { background: rgba(5, 150, 105, 0.08); color: #065f46; border-color: rgba(5, 150, 105, 0.2); }
@@ -898,6 +899,7 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
 .tag-devops     { background: rgba(244,63,94,0.15);  color: #fb7185; border: 1px solid rgba(244,63,94,0.3); }
 .tag-governance { background: rgba(6,182,212,0.15);  color: #22d3ee; border: 1px solid rgba(6,182,212,0.3); }
 .tag-spark      { background: rgba(234,88,12,0.2);   color: #fb923c; border: 1px solid rgba(234,88,12,0.35); }
+.tag-ai         { background: rgba(168,85,247,0.2);  color: #d8b4fe; border: 1px solid rgba(168,85,247,0.35); }
 
 /* ── PARAGRAPH-BASED JOB DESCRIPTIONS ────────────────────────── */
 .job-description {
@@ -1865,6 +1867,7 @@ body, .site-header, .tab-nav, .tab-btn, .tab-panel, .comp-card, .project-card, .
   .tag-devops     { background: #ffe4e6 !important; color: #9f1239 !important; border: 1px solid #fecdd3 !important; }
   .tag-governance { background: #ecfeff !important; color: #155e75 !important; border: 1px solid #cffafe !important; }
   .tag-spark      { background: #ffedd5 !important; color: #9a3412 !important; border: 1px solid #fed7aa !important; }
+  .tag-ai         { background: #f3e8ff !important; color: #7e22ce !important; border: 1px solid #e9d5ff !important; }
 
   .cert-row {
     background: transparent !important;

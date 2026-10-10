@@ -102,8 +102,8 @@ title_p = doc.add_paragraph()
 title_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 title_p.paragraph_format.space_after = Pt(2)
 title_r = title_p.add_run(
-    'Senior Data Engineer → Principal Data Architect\n'
-    'Microsoft Fabric & Azure Native Ecosystems | Cloud FinOps Specialist'
+    'Principal Data Architect | GenAI & Lakehouse Systems\n'
+    'Microsoft Fabric (DP-600) & Azure Native | Cloud FinOps Specialist'
 )
 title_r.font.size = Pt(10.5)
 title_r.font.color.rgb = INDIGO
@@ -143,13 +143,13 @@ add_section_heading(doc, 'Professional Summary')
 summary_p = doc.add_paragraph()
 summary_p.paragraph_format.space_after = Pt(4)
 summary_r = summary_p.add_run(
-    'Strategic Lead Data Engineer with 8+ years of experience and a proven 5-year track record of leading '
-    'high-performance engineering teams and managing direct stakeholder engagements. Expert in designing '
-    'scalable Lakehouse architectures on Microsoft Azure and Microsoft Fabric, acting as the primary '
-    'techno-functional bridge between business goals and technical delivery. Specialises in Cloud FinOps, '
-    'significantly reducing operational costs through advanced compute optimisation (DIUs, Parallelism) and '
-    'SLA optimisation. Deep domain expertise in the EU BFSI sector, ensuring strict GDPR / data sovereignty '
-    'compliance while delivering rapid innovation and 99.9% system reliability.'
+    'Strategic Principal Data Architect with 8+ years of experience and a proven 5-year track record of leading '
+    'high-performance engineering squads and managing direct executive stakeholder engagements. Expert in architecting '
+    'scalable Medallion Lakehouse platforms on Microsoft Azure and Microsoft Fabric, designing enterprise GenAI / RAG '
+    'data pipelines, and bridging technical delivery with executive business vision. Pioneer in Cloud FinOps, slashing '
+    'operational spend and latency by 40%+ through dynamic DIU allocation and Fabric Capacity Unit (CU) optimization. '
+    'Deep domain expertise in the EU BFSI sector, enforcing rigorous GDPR, data sovereignty, and Zero Trust governance '
+    'while delivering 99.9% mission-critical platform reliability.'
 )
 summary_r.font.size = Pt(9.5)
 summary_r.font.color.rgb = DARK
@@ -161,22 +161,22 @@ summary_r.font.name = 'Calibri'
 add_section_heading(doc, 'Core Technical Competencies')
 
 skills_data = [
-    ('Core Architecture',
-     'Medallion Architecture, Data Mesh, Cloud FinOps, Disaster Recovery (DR), Governance, '
-     'Stakeholder Management, Kimball Modeling, Inmon Methodology, Data Vault 2.0, '
-     'Star / Snowflake Schemas, SCDs, Zero-Copy Architecture'),
+    ('Core & GenAI Architecture',
+     'Medallion Architecture, GenAI Data Pipelines, RAG Architecture, Vector Search (Azure AI Search), '
+     'Microsoft Fabric Copilot, Semantic Caching, Data Mesh, Zero-Copy Architecture, Cloud FinOps, '
+     'Disaster Recovery (DR), Kimball Modeling, Data Vault 2.0, Star / Snowflake Schemas, SCDs'),
     ('Microsoft Fabric & Azure',
-     'Microsoft Fabric, OneLake & Direct Lake, Azure Synapse Analytics, Azure Data Factory (ADF), '
-     'ADLS Gen2, Stream Analytics, Event Hubs, Databricks, Azure SQL, Azure Cosmos DB, '
-     'Logic Apps, Azure Monitor / KQL'),
-    ('ETL / ELT & Pipelines',
-     'ADF Mapping Data Flows, Idempotent Pipeline Design, Apache Airflow, SCD Type 2, '
-     'ACID Compliance, Delta Lake, Liquid Clustering, Z-Ordering, Copy-On-Write (CoW), '
-     'MERGE INTO / UPSERT, Delta Time Travel, Data Orchestration'),
-    ('DevOps & Governance',
-     'Azure DevOps, CI/CD (YAML), Git Branching, Automated Rollbacks, Row-Level Security (RLS), '
-     'GDPR Compliance, Data Sovereignty, Azure Key Vault, Service Principals, OAuth Handshake, '
-     'Entra ID, RBAC, T-SQL Advanced, KQL, ARM Templates, Schema Evolution, Data Quality Management'),
+     'Microsoft Fabric (DP-600), OneLake & Direct Lake Mode, Capacity Unit (CU) Optimization, F-SKU Capacity Planning, '
+     'Azure Synapse Analytics, Azure Data Factory (ADF), ADLS Gen2, Azure Purview, Real-Time Intelligence, '
+     'Azure OpenAI Integration, Azure SQL, Cosmos DB, Azure Monitor / KQL'),
+    ('Big Data, Databricks & Pipelines',
+     'Databricks & Unity Catalog, Apache Spark 3.5+, PySpark, Apache Iceberg, Delta Lake UniForm, '
+     'Liquid Clustering, Z-Ordering, Spark Structured Streaming, Event Hubs & Kafka, dbt Core & dbt Mesh, '
+     'Apache Airflow, ADF Mapping Data Flows, Idempotent Pipeline Design, SCD Type 2, ACID Delta Lake, MERGE INTO'),
+    ('DevOps, DataOps & Governance',
+     'Azure DevOps CI/CD (YAML), GitOps, Automated Data Observability, Great Expectations, '
+     'Row/Column-Level Security (RLS/CLS), GDPR Compliance, Data Sovereignty, EU AI Act, Azure Key Vault, '
+     'Service Principals, Entra ID (Azure AD), RBAC, Advanced T-SQL, KQL, ARM Templates, Schema Evolution, 99.9% Platform SLA'),
 ]
 
 for category, items in skills_data:
@@ -216,17 +216,18 @@ overview_p = doc.add_paragraph()
 overview_p.paragraph_format.space_after = Pt(2)
 r_ov = overview_p.add_run(
     'Strategic engineering leader serving as the primary onsite technical point of contact for Product Owners '
-    'and Architects. Managed offshore delivery of 5+ engineers, ensuring zero schedule slippage across sprint '
+    'and Architects. Managed offshore delivery of 5+ senior engineers, ensuring zero schedule slippage across sprint '
     'deliverables while building highly resilient systems.'
 )
 r_ov.italic = True; r_ov.font.size = Pt(9.5); r_ov.font.color.rgb = MID; r_ov.font.name = 'Calibri'
 
 tcs_bullets = [
-    ('Leadership',  'Served as primary technical point of contact for onsite Product Owners and Architects, facilitating requirement discovery, managing offshore delivery of 5+ engineers, and ensuring zero schedule slippage across all sprint deliverables.'),
-    ('Lakehouse',   'Designed a robust Medallion Architecture (Bronze / Silver / Gold) managing 5TB+ data. Implemented idempotent ETL patterns with strict integrity constraints (MERGE INTO / ACID Delta Lake) to ensure 100% data consistency across all pipeline retries and transient cluster failures.'),
-    ('FinOps',      'Led compute optimisation — dynamically tuning DIUs and Parallelism in Azure Data Factory and resolving Integration Runtime bottlenecks — delivering a 40% reduction in data processing latency and significant cloud cost savings across enterprise pipelines.'),
-    ('Fabric',      'Architected resilient Microsoft Fabric semantic models using Direct Lake mode, carefully managing F64 capacity memory guardrails (25 GB) to entirely eliminate refresh failures and ensure high availability for C-level dashboards, preventing DirectQuery fallback latency.'),
-    ('DevOps',      'Automated CI/CD via Azure DevOps / YAML with automated rollback strategies; enforced strict Schema Evolution policies to maintain 100% downstream platform stability across 5+ concurrent engineering squads.'),
+    ('Leadership',        'Served as primary technical point of contact for onsite Product Owners and Architects, facilitating requirement discovery, governing offshore delivery of 5+ senior engineers, and ensuring zero schedule slippage across all sprint deliverables.'),
+    ('Lakehouse',         'Designed a robust Medallion Architecture (Bronze / Silver / Gold) managing 5TB+ data. Implemented idempotent ETL patterns with strict integrity constraints (MERGE INTO, ACID Delta Lake, and Apache Iceberg / Delta UniForm interoperability) to ensure 100% data consistency across all pipeline retries and transient cluster failures.'),
+    ('GenAI & RAG',       'Engineered automated data preparation and embedding pipelines for enterprise GenAI / RAG workloads utilizing Azure OpenAI and Azure AI Search; integrated Microsoft Fabric Copilot for accelerated natural-language data discovery across high-volume repositories.'),
+    ('FinOps',            'Led compute optimisation — dynamically tuning DIUs and Parallelism in Azure Data Factory and governing Fabric Capacity Units (CUs) — delivering a 40% reduction in data processing latency and significant recurring cloud cost savings across enterprise pipelines.'),
+    ('Fabric',            'Architected resilient Microsoft Fabric semantic models using Direct Lake mode over OneLake, strictly managing F64 capacity memory guardrails (25 GB threshold) to entirely eliminate refresh failures and deliver sub-second render speeds for C-level dashboards.'),
+    ('DevOps & DataOps',  'Automated CI/CD via Azure DevOps / YAML with automated rollback strategies; enforced strict Schema Evolution policies and automated data quality checks to maintain 100% downstream platform stability with 99.9% availability under GDPR compliance.'),
 ]
 for label, text in tcs_bullets:
     add_bullet(doc, label, text)
@@ -298,24 +299,29 @@ add_section_heading(doc, 'Key Projects & Architectural Highlights')
 
 projects = [
     {
-        'title': '5TB Medallion Lakehouse — EU Enterprise (TCS)',
-        'tech':  'Fabric · Delta Lake · ADLS Gen2 · ADF · Azure Monitor',
-        'desc':  'Designed Bronze-Silver-Gold Medallion architecture managing 5TB+ data for EU BFSI clients at TCS. Implemented idempotent MERGE INTO patterns ensuring 100% data consistency across all pipeline retries. Delivered 99.9% platform reliability with full GDPR compliance.',
+        'title': '5TB Medallion Lakehouse & Open Table Formats (TCS)',
+        'tech':  'Fabric · Delta Lake · Apache Iceberg · ADLS Gen2 · ADF · Azure Purview',
+        'desc':  'Designed Bronze-Silver-Gold Medallion architecture managing 5TB+ data for EU BFSI clients at TCS. Implemented idempotent MERGE INTO patterns and Delta UniForm/Iceberg interoperability ensuring 100% data consistency across distributed cluster retries. Delivered 99.9% platform reliability with full GDPR data sovereignty compliance.',
     },
     {
-        'title': 'Microsoft Fabric Semantic Model — C-Level Dashboards',
-        'tech':  'Microsoft Fabric · Direct Lake · OneLake · Power BI · DP-600',
-        'desc':  'Architected resilient Fabric semantic models using Direct Lake mode at TCS. Managed F64 capacity guardrails (25 GB memory limit) to eliminate all refresh failures, accelerating C-level dashboard render speeds and achieving high availability for executive reporting.',
+        'title': 'Microsoft Fabric Direct Lake Semantic Layer & Copilot (TCS)',
+        'tech':  'Microsoft Fabric · Direct Lake · OneLake · Azure OpenAI · Fabric Copilot · DP-600',
+        'desc':  'Architected resilient Fabric semantic models using Direct Lake mode at TCS over OneLake shortcuts. Managed F64 capacity guardrails (25 GB memory limit) to eliminate all refresh failures, accelerating C-level dashboard render speeds and integrating Copilot-assisted analytics for executive reporting.',
+    },
+    {
+        'title': 'Enterprise GenAI & RAG Data Pipeline Architecture (TCS)',
+        'tech':  'Azure OpenAI · Azure AI Search · Vector Embeddings · PySpark · ADF · Cosmos DB',
+        'desc':  'Engineered scalable ingestion and chunking pipelines preparing enterprise data for retrieval-augmented generation (RAG) and vector search, enabling sub-second semantic retrieval across high-volume enterprise document and transaction repositories.',
+    },
+    {
+        'title': 'FinOps & Compute Optimisation — DIU & Capacity Tuning (TCS)',
+        'tech':  'ADF · DIU Optimisation · Fabric CU Smoothing · Integration Runtime · CI/CD YAML',
+        'desc':  'Led Cloud FinOps initiative at TCS optimizing DIU allocation, cluster parallelism, and Fabric Capacity Units. Resolved Integration Runtime bottlenecks and automated CI/CD via Azure DevOps YAML, delivering a 40% reduction in data processing latency with significant measurable cost savings.',
     },
     {
         'title': 'ADF Pipeline Re-engineering — Small File Elimination (LTI)',
-        'tech':  'Azure Data Factory · Synapse · Power BI · Aggregation Tables',
+        'tech':  'Azure Data Factory · Synapse · Power BI · Aggregation Tables · PySpark',
         'desc':  'Re-engineered legacy ETL pipelines at LTIMindtree to solve the Small File Problem, cutting query execution times by 40%. Simultaneously redesigned Power BI aggregation models, improving report load speeds by 25% across all high-availability business reports.',
-    },
-    {
-        'title': 'FinOps & Compute Optimisation — DIU Tuning (TCS)',
-        'tech':  'ADF · DIU Optimisation · Integration Runtime · CI/CD YAML',
-        'desc':  'Led Cloud FinOps initiative at TCS optimising DIU allocation and parallelism across enterprise ADF pipelines. Resolved Integration Runtime bottlenecks and automated CI/CD via Azure DevOps YAML, delivering a 40% reduction in data processing latency with significant measurable cost savings.',
     },
 ]
 

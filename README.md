@@ -1,7 +1,7 @@
 # Santosh Jammi
-### Principal Data Architect | Cloud FinOps Specialist | Microsoft Fabric & Azure Native Ecosystems
+### Principal Data Architect | GenAI & Lakehouse Systems | Microsoft Fabric (DP-600) & Azure Native | Cloud FinOps Specialist
 
-[🌐 Landing Page](https://santosh-jammi-resume.vercel.app/) | [💼 LinkedIn Profile](https://linkedin.com/in/santoshjammi29) | [✉️ Email](mailto:santu.jammi@gmail.com) | 📱 +91-9110580037 | 📍 Hyderabad, India
+[🌐 Live Resume Website](https://santosh-jammi-resume.vercel.app/) | [💼 LinkedIn Profile](https://linkedin.com/in/santoshjammi29) | [✉️ Email](mailto:santu.jammi@gmail.com) | 📱 +91-9110580037 | 📍 Hyderabad, India
 
 ---
 
@@ -16,7 +16,7 @@
 ---
 
 ## 📝 Professional Summary
-Strategic Lead Data Engineer with **8+ years of experience** and a proven **5-year track record** of leading high-performance engineering teams and managing direct stakeholder engagements. Expert in designing scalable **Lakehouse architectures on Microsoft Azure and Microsoft Fabric**, acting as the primary techno-functional bridge between business goals and technical delivery. Specializes in **Cloud FinOps**, significantly reducing operational costs through advanced compute optimization (DIUs, Parallelism) and SLA optimization. Deep domain expertise in the **EU BFSI sector**, ensuring strict GDPR / data sovereignty compliance while delivering rapid innovation and **99.9% system reliability**.
+Strategic **Principal Data Architect** with **8+ years of experience** and a proven **5-year track record** of leading high-performance engineering squads and managing direct executive stakeholder engagements. Expert in architecting scalable **Medallion Lakehouse platforms on Microsoft Azure and Microsoft Fabric**, designing **enterprise GenAI / RAG data pipelines**, and bridging technical delivery with executive business vision. Pioneer in **Cloud FinOps**, slashing operational spend and latency by **40%+** through dynamic DIU allocation and Fabric Capacity Unit (CU) optimization. Deep domain expertise in the **EU BFSI sector**, enforcing rigorous GDPR, data sovereignty, and Zero Trust governance while delivering **99.9% mission-critical platform reliability**.
 
 ---
 
@@ -24,10 +24,10 @@ Strategic Lead Data Engineer with **8+ years of experience** and a proven **5-ye
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Data Architecture** | Medallion Architecture, Data Mesh, Event-Driven Architecture, Kimball Dimensional Modeling, Inmon Methodology, Data Vault 2.0 |
-| **Microsoft Fabric & Azure** | Microsoft Fabric, OneLake, Shortcuts, Direct Lake Mode, Capacity Unit (CU) Optimization, F64 Capacity Planning, Azure Synapse Analytics, Azure Data Factory (ADF), SQL Analytics Endpoint, ADLS Gen2, Azure Purview, Power BI |
-| **Databricks & Spark** | Databricks, Unity Catalog, PySpark, Apache Spark, Databricks Photon, Delta Lake, Liquid Clustering, Z-Ordering, Spark Structured Streaming, Managed Tables |
-| **Governance & FinOps** | Cloud FinOps, Row-Level Security (RLS), Column-Level Security, GDPR Compliance, Data Sovereignty, Data Lineage, CI/CD Pipeline Automation (Azure DevOps YAML), Entra ID, RBAC |
+| **Core & GenAI Architecture** | Medallion Architecture (Bronze/Silver/Gold), GenAI Data Pipelines, RAG Architecture, Vector Search (Azure AI Search), Microsoft Fabric Copilot, Semantic Caching, Data Mesh, Zero-Copy Architecture, Cloud FinOps, Disaster Recovery (DR), Kimball Modeling, Data Vault 2.0, Star / Snowflake Schemas, SCDs |
+| **Microsoft Fabric & Azure** | Microsoft Fabric (DP-600), OneLake & Direct Lake Mode, Capacity Unit (CU) Optimization, F-SKU Capacity Planning, Azure Synapse Analytics, Azure Data Factory (ADF), ADLS Gen2, Azure Purview, Real-Time Intelligence, Azure OpenAI Integration, Azure SQL, Cosmos DB, Azure Monitor / KQL |
+| **Big Data, Databricks & Pipelines** | Databricks & Unity Catalog, Apache Spark 3.5+, PySpark, Apache Iceberg, Delta Lake UniForm, Liquid Clustering, Z-Ordering, Spark Structured Streaming, Event Hubs & Kafka, dbt Core & dbt Mesh, Apache Airflow, ADF Mapping Data Flows, Idempotent Pipeline Design, SCD Type 2, ACID Delta Lake, MERGE INTO |
+| **DevOps, DataOps & Governance** | Azure DevOps CI/CD (YAML), GitOps, Automated Data Observability, Great Expectations, Row/Column-Level Security (RLS/CLS), GDPR Compliance, Data Sovereignty, EU AI Act, Azure Key Vault, Service Principals, Entra ID (Azure AD), RBAC, Advanced T-SQL, KQL, ARM Templates, Schema Evolution, 99.9% Platform SLA |
 
 ---
 
@@ -35,11 +35,12 @@ Strategic Lead Data Engineer with **8+ years of experience** and a proven **5-ye
 
 ### Senior Data Engineer
 **Tata Consultancy Services — EU BFSI / Enterprise** | *April 2022 – Present*
-* **Onsite Leadership**: Served as primary technical point of contact for onsite Product Owners and Architects, facilitating requirement discovery, managing offshore delivery of 5+ engineers, and ensuring zero schedule slippage across all sprint deliverables.
-* **Lakehouse and Idempotency**: Designed a robust Medallion Architecture (Bronze / Silver / Gold) managing 5TB+ data. Implemented idempotent ETL patterns with strict integrity constraints (MERGE INTO / ACID Delta Lake) to ensure 100% data consistency across all pipeline retries and transient cluster failures.
-* **Cloud FinOps**: Led compute optimization — dynamically tuning DIUs and Parallelism in Azure Data Factory and resolving Integration Runtime bottlenecks — delivering a 40% reduction in data processing latency and significant cloud cost savings across enterprise pipelines.
-* **Fabric and Power BI**: Architected resilient Microsoft Fabric semantic models using Direct Lake mode, carefully managing F64 capacity memory guardrails (25 GB) to entirely eliminate refresh failures and ensure high availability for C-level dashboards, preventing DirectQuery fallback latency.
-* **DevOps and Schema Evolution**: Automated CI/CD via Azure DevOps / YAML with automated rollback strategies; enforced strict Schema Evolution policies to maintain 100% downstream platform stability across 5+ concurrent engineering squads.
+* **Leadership**: Served as primary technical point of contact for onsite Product Owners and Architects, facilitating requirement discovery, governing offshore delivery of 5+ senior engineers, and ensuring zero schedule slippage across all sprint deliverables.
+* **Lakehouse**: Designed a robust Medallion Architecture (Bronze / Silver / Gold) managing 5TB+ data. Implemented idempotent ETL patterns with strict integrity constraints (MERGE INTO, ACID Delta Lake, and Apache Iceberg / Delta UniForm interoperability) to ensure 100% data consistency across all pipeline retries and transient cluster failures.
+* **GenAI & RAG**: Engineered automated data preparation and embedding pipelines for enterprise GenAI / RAG workloads utilizing Azure OpenAI and Azure AI Search; integrated Microsoft Fabric Copilot for accelerated natural-language data discovery across high-volume repositories.
+* **FinOps**: Led compute optimization — dynamically tuning DIUs and Parallelism in Azure Data Factory and governing Fabric Capacity Units (CUs) — delivering a 40% reduction in data processing latency and significant recurring cloud cost savings across enterprise pipelines.
+* **Fabric**: Architected resilient Microsoft Fabric semantic models using Direct Lake mode over OneLake, strictly managing F64 capacity memory guardrails (25 GB threshold) to entirely eliminate refresh failures and deliver sub-second render speeds for C-level dashboards.
+* **DevOps & DataOps**: Automated CI/CD via Azure DevOps / YAML with automated rollback strategies; enforced strict Schema Evolution policies and automated data quality checks to maintain 100% downstream platform stability with 99.9% availability under GDPR compliance.
 
 ### Senior Data Engineer
 **Larsen & Toubro Infotech (LTIMindtree) — Enterprise Data** | *April 2021 – April 2022*
@@ -57,25 +58,30 @@ Strategic Lead Data Engineer with **8+ years of experience** and a proven **5-ye
 
 ## 🏗️ Key Projects & Architectural Highlights
 
-### ⚡ 5TB Medallion Lakehouse — EU Enterprise (TCS)
+### ⚡ 5TB Medallion Lakehouse & Open Table Formats (TCS)
 * **Goal**: Design a scalable Bronze-Silver-Gold Medallion architecture managing 5TB+ data for EU BFSI clients at TCS.
-* **Architecture**: Integrated ADLS Gen2, Azure Data Factory, and Delta Lake. Implemented idempotent MERGE INTO patterns to guarantee 100% data consistency.
+* **Architecture**: Integrated Fabric, Delta Lake, Apache Iceberg (Delta UniForm), ADLS Gen2, and Azure Purview. Implemented idempotent MERGE INTO patterns to guarantee 100% data consistency.
 * **Impact**: Achieved 99.9% platform reliability and full GDPR data sovereignty compliance.
 
-### 📊 Microsoft Fabric Semantic Model — C-Level Dashboards
-* **Goal**: Modernize executive reporting and eliminate data refresh failures.
-* **Architecture**: Modelled Direct Lake datasets in Microsoft Fabric, leveraging OneLake Shortcuts.
-* **Impact**: Controlled F64 capacity guardrails (25 GB memory limit) to eliminate all refresh failures, bypassing import latency for high-availability reporting.
+### 📊 Microsoft Fabric Direct Lake Semantic Layer & Copilot (TCS)
+* **Goal**: Modernize executive reporting, eliminate data refresh failures, and accelerate data discovery.
+* **Architecture**: Modelled Direct Lake datasets in Microsoft Fabric over OneLake shortcuts. Enforced F64 capacity guardrails (25 GB memory limit) and integrated Copilot-assisted analytics.
+* **Impact**: Eliminated refresh failures and bypassed import latency for high-availability executive reporting.
+
+### 🤖 Enterprise GenAI & RAG Data Pipeline Architecture (TCS)
+* **Goal**: Prepare enterprise unstructured and structured data for real-time generative AI consumption.
+* **Architecture**: Scalable ingestion and chunking pipelines using PySpark, ADF, Azure OpenAI embedding generation, and Azure AI Search vector indexes with semantic caching.
+* **Impact**: Enabled sub-second hybrid vector search retrieval across enterprise document and transaction repositories.
+
+### 💡 FinOps & Compute Optimization — DIU & Capacity Tuning (TCS)
+* **Goal**: Reduce recurring cloud infrastructure expenses for batch pipelines and lakehouse compute.
+* **Architecture**: Dynamically optimized DIU allocation and cluster parallelism in ADF, resolved Integration Runtime bottlenecks, and managed Fabric Capacity Unit smoothing.
+* **Impact**: Reduced data processing latency by 40% while delivering significant recurring monthly cloud cost savings.
 
 ### ⚙️ ADF Pipeline Re-engineering — Small File Elimination (LTI)
 * **Goal**: Eliminate performance bottlenecks in high-volume batch data pipelines.
 * **Architecture**: Re-engineered legacy ETL pipelines in Azure Data Factory to solve the Small File Problem. Redesigned Power BI datasets with aggregation tables.
 * **Impact**: Cut query execution times by 40% and improved report load speeds by 25% across all operational workloads.
-
-### 💡 FinOps & Compute Optimization — DIU Tuning (TCS)
-* **Goal**: Reduce monthly cloud infrastructure expenses for batch pipelines.
-* **Architecture**: Dynamically optimized DIU allocation and cluster parallelism in ADF, resolved Integration Runtime bottlenecks, and automated deployments with Azure DevOps YAML.
-* **Impact**: Reduced data processing latency by 40% while delivering significant monthly cloud cost savings.
 
 ---
 
