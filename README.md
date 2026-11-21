@@ -89,3 +89,25 @@ Strategic **Principal Data Architect** with **8+ years of experience** and a pro
 * **B.Tech – Electrical & Electronics Engineering (EEE)** — 70% | *Raghu Engineering College, Visakhapatnam (Aug 2013 – May 2017)*
 * **Intermediate – MPC** — 90% | *Narayana Junior College, Vizianagaram (May 2011 – May 2013)*
 * **Class 10th** — 90% | *New Central School, Vizianagaram (Mar 2010 – Mar 2011)*
+
+---
+
+## 🌐 Modern Data Engineering Open Source Ecosystem (14 Repositories)
+
+Author and creator of the **14-repository Modern Data Engineering & Lakehouse Architecture ecosystem**, encompassing **921 verified topics** across distributed compute, lakehouse internals, and cloud governance:
+
+- 🧠 **[Topics Directory (`topics/README.md`)](topics/README.md)** — Master curriculum topics catalog spanning all 921 verified concepts.
+- 🌐 **[Modern Data Engineer Hub](https://github.com/santoshjammi29/moderndataengineer)** (`moderndataengineer.uk`) — Central edge web platform with interactive concept encyclopedia and 52 whiteboard blueprints.
+- ⚡ **[PySpark Handbook](https://github.com/santoshjammi29/pyspark-handbook)** — Distributed compute, Catalyst compiler, Tungsten memory, and AQE.
+- ⚡ **[Databricks Handbook](https://github.com/santoshjammi29/databricks-handbook)** — Unity Catalog 3-tier governance, Delta Lake 3.x, and Serverless.
+- 🏛️ **[SQL Handbook](https://github.com/santoshjammi29/sql-handbook)** — Query execution engines, indexing, and distributed database architecture.
+- 🌊 **[Streaming Handbook](https://github.com/santoshjammi29/streaming-handbook)** — Event streaming, Kafka rebalance recovery, Flink, and RocksDB state stores.
+- 🔒 **[Security Handbook](https://github.com/santoshjammi29/security-handbook)** — Zero-trust identity, keyless OIDC, envelope encryption, and lakehouse security.
+- 🏛️ **[Data System Design Handbook](https://github.com/santoshjammi29/data-system-design-handbook)** — Distributed consensus, cross-region split-brain, and lakehouse disaster recovery.
+- 🌪️ **[DataOps & CI/CD Handbook](https://github.com/santoshjammi29/dataops-cicd-handbook)** — Airflow 2/3 dynamic task mapping, WAP pattern, and GitOps pipelines.
+- 🛠️ **[dbt Handbook](https://github.com/santoshjammi29/dbt-handbook)** — Analytics engineering, incremental models, contracts, and dbt Mesh.
+- ☁️ **[Azure Cheat Sheet](https://github.com/santoshjammi29/azure-cheat-sheet)** — Microsoft Fabric OneLake, Direct Lake, ADF, and Power BI.
+- 🎯 **[Data Engineering Interview Handbook](https://github.com/santoshjammi29/data-engineering-interview-handbook)** — 20 Knowledge Pillars, 495+ problems, and architectural defense.
+- 🛒 **[Azure Databricks Blueprints](https://github.com/santoshjammi29/azure-databricks-project-blueprints)** — Enterprise retail, fraud AML, and migration lakehouses.
+- 🏦 **[Banking Risk Lakehouse](https://github.com/santoshjammi29/enterprise-banking-risk-alm-lakehouse)** — European ALM, IFRS 9 ECL, and EWS regulatory analytics.
+- ⚡ **[Spark Experiments](https://github.com/santoshjammi29/spark-experiments)** — Visual execution, skew salting, and memory spill benchmark suites.
