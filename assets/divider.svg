@@ -1,0 +1,13 @@
+<svg width="100%" height="8" viewBox="0 0 1200 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#34d399" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="3" width="1200" height="2" fill="url(#laserGrad)"/>
+  <circle cx="600" cy="4" r="3" fill="#34d399"/>
+</svg>

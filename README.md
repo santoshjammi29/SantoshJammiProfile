@@ -1,33 +1,142 @@
-# Santosh Jammi
-### Principal Data Architect | GenAI & Lakehouse Systems | Microsoft Fabric (DP-600) & Azure Native | Cloud FinOps Specialist
+<!-- HERO BANNER (THEME-ADAPTIVE) -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+    <img alt="Santosh Jammi - Principal Data Architect &amp; Lakehouse Specialist" src="assets/banner-dark.svg" width="100%">
+  </picture>
+</p>
 
-[🌐 Live Resume Website](https://santosh-jammi-resume.vercel.app/) | [💼 LinkedIn Profile](https://linkedin.com/in/santoshjammi29) | [✉️ Email](mailto:santu.jammi@gmail.com) | 📱 +91-9110580037 | 📍 Hyderabad, India
+<!-- DYNAMIC STATUS & QUICK LINKS -->
+<p align="center">
+  <a href="https://moderndataengineer.uk"><img src="https://img.shields.io/badge/Live_Portal-moderndataengineer.uk-10b981?style=for-the-badge&logo=safari&logoColor=white&labelColor=000000" alt="Live Portal"></a>
+  <a href="https://linkedin.com/in/santoshjammi29"><img src="https://img.shields.io/badge/LinkedIn-Santosh_Jammi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn"></a>
+  <a href="https://santosh-jammi-resume.vercel.app/"><img src="https://img.shields.io/badge/Interactive_Resume-Vercel-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Resume"></a>
+  <a href="mailto:santu.jammi@gmail.com"><img src="https://img.shields.io/badge/Email-santu.jammi%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email"></a>
+  <img src="https://img.shields.io/badge/Role-Principal_Data_Architect-8b5cf6?style=for-the-badge&labelColor=000000" alt="Role">
+</p>
+
+<!-- DIVIDER -->
+<p align="center">
+  <img src="assets/divider.svg" width="100%" alt="divider" />
+</p>
+
+<!-- MICROSOFT CERTIFICATIONS -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Microsoft-DP--600_Fabric_Analytics_Engineer-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="DP-600">
+  <img src="https://img.shields.io/badge/Microsoft-DP--203_Azure_Data_Engineer-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="DP-203">
+  <img src="https://img.shields.io/badge/Microsoft-PL--300_Power_BI_Analyst-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="PL-300">
+  <img src="https://img.shields.io/badge/Microsoft-AI--900_Azure_AI_Fundamentals-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="AI-900">
+  <img src="https://img.shields.io/badge/Microsoft-DP--900_Data_Fundamentals-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="DP-900">
+  <img src="https://img.shields.io/badge/Microsoft-AZ--900_Azure_Fundamentals-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="AZ-900">
+</p>
 
 ---
 
-## 🎖️ Microsoft Certifications
-![DP-600](https://img.shields.io/badge/Microsoft-DP--600_Fabric_Analytics_Engineer-blue?style=flat-square&logo=microsoft)
-![DP-203](https://img.shields.io/badge/Microsoft-DP--203_Azure_Data_Engineer-blue?style=flat-square&logo=microsoft)
-![PL-300](https://img.shields.io/badge/Microsoft-PL--300_Power_BI_Analyst-blue?style=flat-square&logo=microsoft)
-![AI-900](https://img.shields.io/badge/Microsoft-AI--900_Azure_AI_Fundamentals-blue?style=flat-square&logo=microsoft)
-![DP-900](https://img.shields.io/badge/Microsoft-DP--900_Data_Fundamentals-blue?style=flat-square&logo=microsoft)
-![AZ-900](https://img.shields.io/badge/Microsoft-AZ--900_Azure_Fundamentals-blue?style=flat-square&logo=microsoft)
+## 📝 Executive Summary
+
+Strategic **Principal Data Architect** with **8+ years of production experience** and a proven **5-year track record** leading high-performance engineering squads and managing direct executive stakeholder engagements. 
+
+- **Enterprise Lakehouse Systems**: Specialist in architecting resilient Medallion Lakehouses on **Microsoft Azure**, **Microsoft Fabric (DP-600)**, and **Databricks**.
+- **Distributed Big Data**: Deep expertise in **Apache Spark 3.5+**, **Delta Lake 3.2**, Liquid Clustering, and RocksDB stateful Structured Streaming.
+- **Enterprise GenAI &amp; RAG**: Production data pipelines for embedding generation, Azure OpenAI, Azure AI Search vector retrieval, and semantic caching.
+- **Cloud FinOps**: Slashing operational spend and data processing latency by **40%+** through dynamic DIU allocation and Fabric Capacity Unit (CU) smoothing.
+- **Zero-Trust Governance**: Rigorous GDPR, data sovereignty, keyless OIDC, and Unity Catalog fine-grained access control (RLS/CLS) across the **EU BFSI sector** with **99.9% platform SLA**.
 
 ---
 
-## 📝 Professional Summary
-Strategic **Principal Data Architect** with **8+ years of experience** and a proven **5-year track record** of leading high-performance engineering squads and managing direct executive stakeholder engagements. Expert in architecting scalable **Medallion Lakehouse platforms on Microsoft Azure and Microsoft Fabric**, designing **enterprise GenAI / RAG data pipelines**, and bridging technical delivery with executive business vision. Pioneer in **Cloud FinOps**, slashing operational spend and latency by **40%+** through dynamic DIU allocation and Fabric Capacity Unit (CU) optimization. Deep domain expertise in the **EU BFSI sector**, enforcing rigorous GDPR, data sovereignty, and Zero Trust governance while delivering **99.9% mission-critical platform reliability**.
+## 🏛️ Flagship Open Source Ecosystem (15 Repositories)
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌐 <a href="https://github.com/santoshjammi29/moderndataengineer">Modern Data Engineer Encyclopedia</a></h3>
+      <p><b>Definitive Open-Access Lakehouse Systems Platform</b> indexing <b>11,360+ verified assets</b>, 921 concepts, and 52 interactive whiteboard blueprints.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-16_App_Router-black?style=flat-square&logo=next.js" />
+        <img src="https://img.shields.io/badge/Cloudflare-Workers_/_R2-F38020?style=flat-square&logo=cloudflare" />
+        <img src="https://img.shields.io/badge/WCAG-2.2_AA-brightgreen?style=flat-square" />
+      </p>
+      <p>👉 <b><a href="https://moderndataengineer.uk">Launch Web Portal (moderndataengineer.uk) →</a></b></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/santoshjammi29/databricks-handbook">The Databricks Handbook</a></h3>
+      <p><b>105 Battle-Tested Production Coding Recipes</b>, Unity Catalog 3-tier governance, Delta Lake 3.x, Databricks Asset Bundles (DABs), and incident runbooks.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Databricks-Runtime_15.4%2B_LTS-FF3621?style=flat-square&logo=databricks&logoColor=white" />
+        <img src="https://img.shields.io/badge/Delta_Lake-3.2_ACID-00ADD8?style=flat-square" />
+        <img src="https://img.shields.io/badge/Topics-132_Covered-008080?style=flat-square" />
+      </p>
+      <p>👉 <b><a href="https://github.com/santoshjammi29/databricks-handbook">Explore Handbook →</a></b></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/santoshjammi29/pyspark-handbook">The PySpark Handbook</a></h3>
+      <p><b>105 Production Lakehouse Use Cases</b>, Catalyst compiler optimization, memory triage (OOM, shuffle spill, skew salting), and PyArrow UDFs.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Apache_Spark-3.5%2B_--_4.0-E25A1C?style=flat-square&logo=apachespark&logoColor=white" />
+        <img src="https://img.shields.io/badge/Python-PyArrow_UDFs-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Topics-157_Covered-purple?style=flat-square" />
+      </p>
+      <p>👉 <b><a href="https://github.com/santoshjammi29/pyspark-handbook">Explore Handbook →</a></b></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/santoshjammi29/sql-handbook">The SQL &amp; Data Modeling Handbook</a></h3>
+      <p><b>105 Production Use Cases</b> covering window functions, CTEs, indexing internals (B-Tree, GIN, BRIN), query execution plans, Kimball, and Data Vault 2.0.</p>
+      <p>
+        <img src="https://img.shields.io/badge/ANSI_SQL-2023_Standard-00ADD8?style=flat-square" />
+        <img src="https://img.shields.io/badge/Query_Tuning-EXPLAIN_ANALYZE-34D399?style=flat-square" />
+        <img src="https://img.shields.io/badge/Topics-170_Covered-0078D4?style=flat-square" />
+      </p>
+      <p>👉 <b><a href="https://github.com/santoshjammi29/sql-handbook">Explore Handbook →</a></b></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔒 <a href="https://github.com/santoshjammi29/security-handbook">The Enterprise Security Handbook</a></h3>
+      <p><b>Zero-Trust Cloud &amp; Lakehouse Security</b>: Keyless OIDC federation, Azure Private Endpoints, KMS envelope encryption, and Unity Catalog RLS/CLS.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Standard-NIST_SP_800--207-10B981?style=flat-square" />
+        <img src="https://img.shields.io/badge/Compliance-GDPR_%26_EU_AI-blue?style=flat-square" />
+      </p>
+      <p>👉 <b><a href="https://github.com/santoshjammi29/security-handbook">Explore Security Guide →</a></b></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌊 <a href="https://github.com/santoshjammi29/streaming-handbook">The Real-Time Streaming Handbook</a></h3>
+      <p><b>Event Streaming &amp; Real-Time Ingestion</b>: Azure Event Hubs, Kafka rebalance recovery, Structured Streaming with RocksDB state stores, and P99 &lt; 100ms.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Streaming-P99_%3C_100ms-06B6D4?style=flat-square" />
+        <img src="https://img.shields.io/badge/State_Store-RocksDB_Off--Heap-blueviolet?style=flat-square" />
+      </p>
+      <p>👉 <b><a href="https://github.com/santoshjammi29/streaming-handbook">Explore Streaming Guide →</a></b></p>
+    </td>
+  </tr>
+</table>
+
+### 📚 Additional Specialized Handbooks & Blueprints
+- ☁️ **[Azure Cheat Sheet](https://github.com/santoshjammi29/azure-cheat-sheet)** — 300+ Services, Fabric OneLake, Direct Lake mode, and Bicep IaC.
+- 🎯 **[Data Engineering Interview Handbook](https://github.com/santoshjammi29/data-engineering-interview-handbook)** — 20 Knowledge Pillars, 595 problems, and architectural defense.
+- 🏛️ **[Data System Design Handbook](https://github.com/santoshjammi29/data-system-design-handbook)** — Distributed consensus, cross-region split-brain, and lakehouse disaster recovery.
+- 🌪️ **[DataOps &amp; CI/CD Handbook](https://github.com/santoshjammi29/dataops-cicd-handbook)** — Airflow 2/3 dynamic task mapping, WAP pattern, and GitOps DABs.
+- 🛠️ **[dbt Handbook](https://github.com/santoshjammi29/dbt-handbook)** — Analytics engineering, incremental models, contracts, and dbt Mesh.
+- 🛒 **[Azure Databricks Blueprints](https://github.com/santoshjammi29/azure-databricks-project-blueprints)** — Enterprise retail, fraud AML, and migration lakehouses.
+- 🏦 **[Banking Risk Lakehouse](https://github.com/santoshjammi29/enterprise-banking-risk-alm-lakehouse)** — European ALM, IFRS 9 ECL, and EWS regulatory analytics.
+- ⚡ **[Spark Experiments](https://github.com/santoshjammi29/spark-experiments)** — Visual execution, skew salting, and memory spill benchmark suites.
 
 ---
 
-## 🛠️ Core Technical Competencies
+## 🛠️ Core Technical Radar
 
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Core & GenAI Architecture** | Medallion Architecture (Bronze/Silver/Gold), GenAI Data Pipelines, RAG Architecture, Vector Search (Azure AI Search), Microsoft Fabric Copilot, Semantic Caching, Data Mesh, Zero-Copy Architecture, Cloud FinOps, Disaster Recovery (DR), Kimball Modeling, Data Vault 2.0, Star / Snowflake Schemas, SCDs |
-| **Microsoft Fabric & Azure** | Microsoft Fabric (DP-600), OneLake & Direct Lake Mode, Capacity Unit (CU) Optimization, F-SKU Capacity Planning, Azure Synapse Analytics, Azure Data Factory (ADF), ADLS Gen2, Azure Purview, Real-Time Intelligence, Azure OpenAI Integration, Azure SQL, Cosmos DB, Azure Monitor / KQL |
-| **Big Data, Databricks & Pipelines** | Databricks & Unity Catalog, Apache Spark 3.5+, PySpark, Apache Iceberg, Delta Lake UniForm, Liquid Clustering, Z-Ordering, Spark Structured Streaming, Event Hubs & Kafka, dbt Core & dbt Mesh, Apache Airflow, ADF Mapping Data Flows, Idempotent Pipeline Design, SCD Type 2, ACID Delta Lake, MERGE INTO |
-| **DevOps, DataOps & Governance** | Azure DevOps CI/CD (YAML), GitOps, Automated Data Observability, Great Expectations, Row/Column-Level Security (RLS/CLS), GDPR Compliance, Data Sovereignty, EU AI Act, Azure Key Vault, Service Principals, Entra ID (Azure AD), RBAC, Advanced T-SQL, KQL, ARM Templates, Schema Evolution, 99.9% Platform SLA |
+| Domain | Production Tooling &amp; Frameworks | Maturity Level |
+| :--- | :--- | :--- |
+| **Compute Engines** | Apache Spark 3.5, Databricks Photon, Trino, DuckDB, ClickHouse | `Principal / Staff` |
+| **Storage Formats** | Delta Lake 3.x (Liquid Clustering, Deletion Vectors, CDF), Apache Iceberg | `Architect` |
+| **Microsoft Fabric &amp; Azure** | Microsoft Fabric (DP-600), OneLake, Direct Lake, ADF, Synapse, ADLS Gen2, Azure Purview | `Certified Architect` |
+| **Streaming / Eventing** | Apache Kafka, Azure Event Hubs, Structured Streaming, Flink | `Production Expert` |
+| **Data Governance** | Databricks Unity Catalog (Tagging, Lineage, Dynamic Row Filters / Masking) | `Production Expert` |
+| **Infrastructure as Code** | Terraform, Databricks Asset Bundles (DABs), Bicep, Docker, GitHub Actions | `GitOps Driven` |
+| **Zero-Trust Security** | Keyless OIDC Federation, Azure Private Endpoints, KMS Envelope Encryption | `Enterprise Grade` |
 
 ---
 
@@ -35,79 +144,28 @@ Strategic **Principal Data Architect** with **8+ years of experience** and a pro
 
 ### Senior Data Engineer
 **Tata Consultancy Services — EU BFSI / Enterprise** | *April 2022 – Present*
-* **Leadership**: Served as primary technical point of contact for onsite Product Owners and Architects, facilitating requirement discovery, governing offshore delivery of 5+ senior engineers, and ensuring zero schedule slippage across all sprint deliverables.
-* **Lakehouse**: Designed a robust Medallion Architecture (Bronze / Silver / Gold) managing 5TB+ data. Implemented idempotent ETL patterns with strict integrity constraints (MERGE INTO, ACID Delta Lake, and Apache Iceberg / Delta UniForm interoperability) to ensure 100% data consistency across all pipeline retries and transient cluster failures.
-* **GenAI & RAG**: Engineered automated data preparation and embedding pipelines for enterprise GenAI / RAG workloads utilizing Azure OpenAI and Azure AI Search; integrated Microsoft Fabric Copilot for accelerated natural-language data discovery across high-volume repositories.
-* **FinOps**: Led compute optimization — dynamically tuning DIUs and Parallelism in Azure Data Factory and governing Fabric Capacity Units (CUs) — delivering a 40% reduction in data processing latency and significant recurring cloud cost savings across enterprise pipelines.
-* **Fabric**: Architected resilient Microsoft Fabric semantic models using Direct Lake mode over OneLake, strictly managing F64 capacity memory guardrails (25 GB threshold) to entirely eliminate refresh failures and deliver sub-second render speeds for C-level dashboards.
-* **DevOps & DataOps**: Automated CI/CD via Azure DevOps / YAML with automated rollback strategies; enforced strict Schema Evolution policies and automated data quality checks to maintain 100% downstream platform stability with 99.9% availability under GDPR compliance.
+* **Leadership**: Served as primary technical point of contact for onsite Product Owners and Architects, governing offshore delivery of 5+ senior engineers with zero schedule slippage.
+* **Lakehouse**: Designed Medallion Architecture (Bronze / Silver / Gold) managing 5TB+ data with idempotent ETL patterns (MERGE INTO, ACID Delta Lake, Apache Iceberg interoperability).
+* **GenAI &amp; RAG**: Engineered automated data preparation pipelines for enterprise GenAI / RAG workloads utilizing Azure OpenAI and Azure AI Search with semantic caching.
+* **FinOps**: Led compute optimization across ADF and Fabric Capacity Units (CUs), reducing data processing latency by 40% and delivering recurring monthly cloud savings.
+* **Fabric**: Architected resilient Microsoft Fabric semantic models using Direct Lake mode over OneLake, stripping away import latency and memory limits for C-suite executive dashboards.
 
-### Senior Data Engineer
-**Larsen & Toubro Infotech (LTIMindtree) — Enterprise Data** | *April 2021 – April 2022*
-* **ETL Performance**: Re-engineered legacy pipelines using Azure Data Factory, solving the Small File Problem and cutting query execution times by 40% through parallelism tuning, partition optimization, and Integration Runtime right-sizing.
-* **Reporting**: Redesigned Power BI models with aggregation tables, improving report load speeds by 25% and achieving high availability across all executive and operational reporting workloads.
-
-### Technology Analyst → Senior System Engineer → System Engineer
-**Infosys Limited — Enterprise Technology** | *December 2017 – April 2021*
-* **Data Quality**: Improved data model accuracy by 20% through automated data cleansing and validation frameworks, establishing consistent data quality standards across enterprise financial reporting pipelines.
-* **Security**: Integrated Power BI with SaaS applications, implementing Row-Level Security (RLS) for sensitive financial data and designing role-based access controls governing the end-to-end lifecycle from data modeling to dashboard deployment.
-* **Performance**: Increased data processing efficiency by 15% through advanced T-SQL query tuning, index optimization, and stored procedure refactoring across large-scale SQL Server and Azure SQL workloads.
-* **Platform**: Collaborated with cross-functional teams to develop high-impact data products utilizing SQL Server and Azure services for efficient large-scale processing, supporting business intelligence initiatives across multiple domains.
+### Data Engineer
+**Larsen &amp; Toubro Infotech (LTI)** | *Jan 2018 – April 2022*
+* **ETL Engineering**: Designed, tested, and maintained high-throughput ETL pipelines with Azure Data Factory, SSIS, and Azure SQL Database across financial clients.
+* **Optimization**: Re-engineered high-volume batch pipelines to eliminate the Small File Problem and tuned Spark partition sizes for 40% faster execution.
 
 ---
 
-## 🏗️ Key Projects & Architectural Highlights
+## 📈 GitHub Telemetry
 
-### ⚡ 5TB Medallion Lakehouse & Open Table Formats (TCS)
-* **Goal**: Design a scalable Bronze-Silver-Gold Medallion architecture managing 5TB+ data for EU BFSI clients at TCS.
-* **Architecture**: Integrated Fabric, Delta Lake, Apache Iceberg (Delta UniForm), ADLS Gen2, and Azure Purview. Implemented idempotent MERGE INTO patterns to guarantee 100% data consistency.
-* **Impact**: Achieved 99.9% platform reliability and full GDPR data sovereignty compliance.
-
-### 📊 Microsoft Fabric Direct Lake Semantic Layer & Copilot (TCS)
-* **Goal**: Modernize executive reporting, eliminate data refresh failures, and accelerate data discovery.
-* **Architecture**: Modelled Direct Lake datasets in Microsoft Fabric over OneLake shortcuts. Enforced F64 capacity guardrails (25 GB memory limit) and integrated Copilot-assisted analytics.
-* **Impact**: Eliminated refresh failures and bypassed import latency for high-availability executive reporting.
-
-### 🤖 Enterprise GenAI & RAG Data Pipeline Architecture (TCS)
-* **Goal**: Prepare enterprise unstructured and structured data for real-time generative AI consumption.
-* **Architecture**: Scalable ingestion and chunking pipelines using PySpark, ADF, Azure OpenAI embedding generation, and Azure AI Search vector indexes with semantic caching.
-* **Impact**: Enabled sub-second hybrid vector search retrieval across enterprise document and transaction repositories.
-
-### 💡 FinOps & Compute Optimization — DIU & Capacity Tuning (TCS)
-* **Goal**: Reduce recurring cloud infrastructure expenses for batch pipelines and lakehouse compute.
-* **Architecture**: Dynamically optimized DIU allocation and cluster parallelism in ADF, resolved Integration Runtime bottlenecks, and managed Fabric Capacity Unit smoothing.
-* **Impact**: Reduced data processing latency by 40% while delivering significant recurring monthly cloud cost savings.
-
-### ⚙️ ADF Pipeline Re-engineering — Small File Elimination (LTI)
-* **Goal**: Eliminate performance bottlenecks in high-volume batch data pipelines.
-* **Architecture**: Re-engineered legacy ETL pipelines in Azure Data Factory to solve the Small File Problem. Redesigned Power BI datasets with aggregation tables.
-* **Impact**: Cut query execution times by 40% and improved report load speeds by 25% across all operational workloads.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=santoshjammi29&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&title_color=38bdf8&icon_color=34d399&text_color=94a3b8" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santoshjammi29&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&title_color=38bdf8&text_color=94a3b8" width="48%" alt="Top Languages" />
+</p>
 
 ---
 
-## 🎓 Education
-* **B.Tech – Electrical & Electronics Engineering (EEE)** — 70% | *Raghu Engineering College, Visakhapatnam (Aug 2013 – May 2017)*
-* **Intermediate – MPC** — 90% | *Narayana Junior College, Vizianagaram (May 2011 – May 2013)*
-* **Class 10th** — 90% | *New Central School, Vizianagaram (Mar 2010 – Mar 2011)*
-
----
-
-## 🌐 Modern Data Engineering Open Source Ecosystem (14 Repositories)
-
-Author and creator of the **14-repository Modern Data Engineering & Lakehouse Architecture ecosystem**, encompassing **921 verified topics** across distributed compute, lakehouse internals, and cloud governance:
-
-- 🧠 **[Topics Directory (`topics/README.md`)](topics/README.md)** — Master curriculum topics catalog spanning all 921 verified concepts.
-- 🌐 **[Modern Data Engineer Hub](https://github.com/santoshjammi29/moderndataengineer)** (`moderndataengineer.uk`) — Central edge web platform with interactive concept encyclopedia and 52 whiteboard blueprints.
-- ⚡ **[PySpark Handbook](https://github.com/santoshjammi29/pyspark-handbook)** — Distributed compute, Catalyst compiler, Tungsten memory, and AQE.
-- ⚡ **[Databricks Handbook](https://github.com/santoshjammi29/databricks-handbook)** — Unity Catalog 3-tier governance, Delta Lake 3.x, and Serverless.
-- 🏛️ **[SQL Handbook](https://github.com/santoshjammi29/sql-handbook)** — Query execution engines, indexing, and distributed database architecture.
-- 🌊 **[Streaming Handbook](https://github.com/santoshjammi29/streaming-handbook)** — Event streaming, Kafka rebalance recovery, Flink, and RocksDB state stores.
-- 🔒 **[Security Handbook](https://github.com/santoshjammi29/security-handbook)** — Zero-trust identity, keyless OIDC, envelope encryption, and lakehouse security.
-- 🏛️ **[Data System Design Handbook](https://github.com/santoshjammi29/data-system-design-handbook)** — Distributed consensus, cross-region split-brain, and lakehouse disaster recovery.
-- 🌪️ **[DataOps & CI/CD Handbook](https://github.com/santoshjammi29/dataops-cicd-handbook)** — Airflow 2/3 dynamic task mapping, WAP pattern, and GitOps pipelines.
-- 🛠️ **[dbt Handbook](https://github.com/santoshjammi29/dbt-handbook)** — Analytics engineering, incremental models, contracts, and dbt Mesh.
-- ☁️ **[Azure Cheat Sheet](https://github.com/santoshjammi29/azure-cheat-sheet)** — Microsoft Fabric OneLake, Direct Lake, ADF, and Power BI.
-- 🎯 **[Data Engineering Interview Handbook](https://github.com/santoshjammi29/data-engineering-interview-handbook)** — 20 Knowledge Pillars, 495+ problems, and architectural defense.
-- 🛒 **[Azure Databricks Blueprints](https://github.com/santoshjammi29/azure-databricks-project-blueprints)** — Enterprise retail, fraud AML, and migration lakehouses.
-- 🏦 **[Banking Risk Lakehouse](https://github.com/santoshjammi29/enterprise-banking-risk-alm-lakehouse)** — European ALM, IFRS 9 ECL, and EWS regulatory analytics.
-- ⚡ **[Spark Experiments](https://github.com/santoshjammi29/spark-experiments)** — Visual execution, skew salting, and memory spill benchmark suites.
+<p align="center">
+  <sub>Designed &amp; Engineered by <b>Santosh Jammi</b> • Powered by Open Source • Live Systems at <a href="https://moderndataengineer.uk">moderndataengineer.uk</a></sub>
+</p>

@@ -1,0 +1,183 @@
+<svg fill="none" viewBox="0 0 1200 420" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        :root {
+          --bg-base: #000000;
+          --bg-surface: #090a0f;
+          --border-color: rgba(255, 255, 255, 0.12);
+          --accent-cyan: #06b6d4;
+          --accent-emerald: #10b981;
+          --accent-purple: #8b5cf6;
+          --text-primary: #f8fafc;
+          --text-secondary: #94a3b8;
+          --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+        .container {
+          position: relative;
+          width: 100%;
+          height: 420px;
+          background-color: var(--bg-base);
+          background-image: 
+            radial-gradient(circle at 15% 50%, rgba(6, 182, 212, 0.18), transparent 45%),
+            radial-gradient(circle at 85% 30%, rgba(16, 185, 129, 0.20), transparent 40%),
+            radial-gradient(circle at 50% 90%, rgba(139, 92, 246, 0.15), transparent 50%),
+            linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+          background-size: 100% 100%, 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+          border: 1px solid var(--border-color);
+          border-radius: 16px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding: 40px 52px;
+          font-family: var(--font-family);
+          overflow: hidden;
+        }
+
+        .ambient-glow {
+          position: absolute;
+          top: -120px;
+          left: 30%;
+          width: 440px;
+          height: 250px;
+          background: linear-gradient(90deg, var(--accent-cyan), var(--accent-emerald));
+          filter: blur(80px);
+          opacity: 0.35;
+          border-radius: 50%;
+          animation: floatGlow 10s ease-in-out infinite alternate;
+          pointer-events: none;
+        }
+
+        @keyframes floatGlow {
+          0% { transform: translateX(-60px) scale(0.9); }
+          100% { transform: translateX(80px) scale(1.15); }
+        }
+
+        .status-badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 6px 14px;
+          background: rgba(16, 185, 129, 0.12);
+          border: 1px solid rgba(16, 185, 129, 0.35);
+          border-radius: 9999px;
+          font-size: 13px;
+          font-weight: 700;
+          color: #34d399;
+          width: fit-content;
+          letter-spacing: 0.03em;
+        }
+
+        .pulse-dot {
+          width: 8px;
+          height: 8px;
+          background-color: #10b981;
+          border-radius: 50%;
+          box-shadow: 0 0 10px #10b981;
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        @keyframes pulse {
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50% { opacity: 0.4; transform: scale(0.85); }
+        }
+
+        .hero-title {
+          font-size: 40px;
+          font-weight: 800;
+          letter-spacing: -0.03em;
+          line-height: 1.15;
+          color: var(--text-primary);
+          margin-top: 14px;
+        }
+
+        .gradient-text {
+          background: linear-gradient(135deg, #38bdf8 0%, #34d399 50%, #a78bfa 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .hero-subtitle {
+          font-size: 16px;
+          color: var(--text-secondary);
+          margin-top: 10px;
+          max-width: 840px;
+          line-height: 1.5;
+        }
+
+        .pills-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-top: 18px;
+        }
+
+        .tech-pill {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          padding: 6px 14px;
+          background: rgba(255, 255, 255, 0.05);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          border-radius: 8px;
+          font-size: 13px;
+          font-weight: 500;
+          color: #e2e8f0;
+          backdrop-filter: blur(8px);
+        }
+
+        .footer-bar {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-top: 1px solid rgba(255, 255, 255, 0.08);
+          padding-top: 16px;
+          font-size: 13px;
+          color: #64748b;
+        }
+
+        .terminal-prompt {
+          font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+          color: #38bdf8;
+        }
+      </style>
+
+      <div class="container">
+        <div class="ambient-glow"></div>
+        <div>
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            PRINCIPAL DATA ARCHITECT &amp; LAKEHOUSE SPECIALIST
+          </div>
+          <h1 class="hero-title">
+            Engineering <span class="gradient-text">Petabyte-Scale Systems</span>
+          </h1>
+          <p class="hero-subtitle">
+            Microsoft Fabric (DP-600) • Databricks &amp; Unity Catalog • Apache Spark 3.5+ • Delta Lake 3.x • Enterprise Cloud FinOps
+          </p>
+          <div class="pills-container">
+            <span class="tech-pill">⚡ Apache Spark 3.5</span>
+            <span class="tech-pill">🌊 Delta Lake 3.2</span>
+            <span class="tech-pill">🧱 Databricks DABs</span>
+            <span class="tech-pill">🏛️ Microsoft Fabric</span>
+            <span class="tech-pill">☁️ Azure Native</span>
+            <span class="tech-pill">🌐 Next.js &amp; TypeScript</span>
+          </div>
+        </div>
+
+        <div class="footer-bar">
+          <div><span class="terminal-prompt">$</span> curl -sL https://moderndataengineer.uk</div>
+          <div>Verified Production Blueprints • 11,360+ Enterprise Assets</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
