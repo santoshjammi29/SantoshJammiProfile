@@ -113,7 +113,7 @@ contact_p = doc.add_paragraph()
 contact_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
 contact_p.paragraph_format.space_after = Pt(4)
 contact_r = contact_p.add_run(
-    'Hyderabad, India  ·  santu.jammi@gmail.com  ·  +91-9110580037  ·  linkedin.com/in/santoshjammi29  ·  github.com/santoshjammi29'
+    'Hyderabad, India  ·  santu.jammi@gmail.com  ·  +91-9110580037  ·  moderndataengineer.uk  ·  linkedin.com/in/santoshjammi29  ·  github.com/santoshjammi29'
 )
 contact_r.font.size = Pt(9)
 contact_r.font.color.rgb = MID
@@ -322,6 +322,11 @@ projects = [
         'title': 'ADF Pipeline Re-engineering — Small File Elimination (LTI)',
         'tech':  'Azure Data Factory · Synapse · Power BI · Aggregation Tables · PySpark',
         'desc':  'Re-engineered legacy ETL pipelines at LTIMindtree to solve the Small File Problem, cutting query execution times by 40%. Simultaneously redesigned Power BI aggregation models, improving report load speeds by 25% across all high-availability business reports.',
+    },
+    {
+        'title': 'Modern Data Engineer Platform & Open-Access Ecosystem (moderndataengineer.uk)',
+        'tech':  'Next.js 16 · Cloudflare Workers & R2 · Vitest · 15 Repositories · Apache Spark · Delta Lake · Fabric',
+        'desc':  'Architected and launched the flagship open-access lakehouse systems encyclopedia indexing 11,361+ verified assets, 921 concepts, 52 interactive whiteboard blueprints, and 15 open-source handbooks with 100% automated test coverage (62 suites, 522 passed tests) and WCAG 2.2 AA accessibility.',
     },
 ]
 
