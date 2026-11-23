@@ -35,7 +35,7 @@
 
 ## 📝 Executive Summary
 
-Strategic **Principal Data Architect** with **8+ years of production experience** and a proven **5-year track record** leading high-performance engineering squads and managing direct executive stakeholder engagements. 
+Strategic **Principal Data Architect** with **8+ years of production experience** and a proven **5-year track record** leading high-performance engineering squads and managing direct executive stakeholder engagements.
 
 - **Enterprise Lakehouse Systems**: Specialist in architecting resilient Medallion Lakehouses on **Microsoft Azure**, **Microsoft Fabric (DP-600)**, and **Databricks**.
 - **Distributed Big Data**: Deep expertise in **Apache Spark 3.5+**, **Delta Lake 3.2**, Liquid Clustering, and RocksDB stateful Structured Streaming.
