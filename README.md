@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://moderndataengineer.uk"><img src="https://img.shields.io/badge/Live_Portal-moderndataengineer.uk-10b981?style=for-the-badge&logo=safari&logoColor=white&labelColor=000000" alt="Live Portal"></a>
   <a href="https://linkedin.com/in/santoshjammi29"><img src="https://img.shields.io/badge/LinkedIn-Santosh_Jammi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn"></a>
-  <a href="https://santosh-jammi-resume.vercel.app/"><img src="https://img.shields.io/badge/Interactive_Resume-Vercel-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Resume"></a>
+  <a href="https://santoshjammi29.github.io/SantoshJammiProfile/"><img src="https://img.shields.io/badge/Interactive_Resume-GitHub_Pages-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="Resume"></a>
   <a href="mailto:santu.jammi@gmail.com"><img src="https://img.shields.io/badge/Email-santu.jammi%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email"></a>
   <img src="https://img.shields.io/badge/Role-Principal_Data_Architect-8b5cf6?style=for-the-badge&labelColor=000000" alt="Role">
 </p>
